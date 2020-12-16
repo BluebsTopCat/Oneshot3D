@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\badid\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\badid\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_new OS3D test.307913027.00" t="ExcludeRecursive" />
+    <e p="C:\Users\badid\new OS3D test" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="ItemScript.cs" t="Include" />
+          <e p="Libs" t="Include">
+            <e p="DestroyItem.cs" t="Include" />
+            <e p="GiveItem.cs" t="Include" />
+            <e p="Inventory.cs" t="Include" />
+            <e p="ItemLib.cs" t="Include" />
+          </e>
+          <e p="Movement.cs" t="Include" />
+          <e p="Settings.cs" t="Include" />
+          <e p="Yarnspinner" t="Include">
+            <e p="Npc.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="LocalPackages" t="Include">
+        <e p="com.unity.render-pipelines.high-definition-config" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="ShaderConfig.cs" t="Include" />
+            <e p="ShaderConfig.cs.hlsl" t="Include" />
+            <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="new OS3D test.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
