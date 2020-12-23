@@ -38,7 +38,7 @@ namespace Yarn.Unity.Example {
         [Header("Optional")]
         public YarnProgram scriptToLoad;
 
-        void Start () {
+        void OnEnable() {
             if (scriptToLoad != null) {
                 DialogueRunner dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
                 dialogueRunner.Add(scriptToLoad);

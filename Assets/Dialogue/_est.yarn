@@ -3,8 +3,8 @@ tags:
 colorID: 0
 position: 868,329
 ---
-0There's a TV remote here.1
-0Niko picks it up.1
+-There's a <color=grey>TV Remote</color> here.+
+-Niko picks it up.+
 <<give EventMaster 1>>
 <<destroy EventMaster Remote>>
 ===

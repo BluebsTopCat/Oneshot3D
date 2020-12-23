@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 0d89c2caaadd9614585ed20c8bb4eb6e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - _pRoom-Filler-0
+  - _pRoom-Bed-1
+  - _pRoom-Books-2
+  - _pRoom-Books-3
+  - _pRoom-Branch-4
+  - _pRoom-Branch-5
+  - _pRoom-Mirror-6
+  - _pRoom-Toilet-7
+  - _pRoom-Tub-8
+  - _pRoom-Window-9
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 0d89c2caaadd9614585ed20c8bb4eb6e, type: 3}
+  localizations: []

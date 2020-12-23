@@ -1,0 +1,69 @@
+title: Filler
+tags: 
+colorID: 0
+position: 860,428
+---
+This doesn't function
+===
+
+title: Bed
+tags: 
+colorID: 0
+position: 900,500
+---
+-Niko just woke up here.+
+===
+
+title: Books
+tags: 
+colorID: 0
+position: 602,427
+---
+-Dusty books.+
+-It's too dark to read in here.+
+===
+title: Branch
+tags: 
+colorID: 0
+position: 1104,426
+---
+-A withered plant sits here, stiff and dry.+
+-There's no need to do anything else to it.+
+===
+title: Mirror
+tags: 
+colorID: 0
+position: 360,428
+---
+-A pair of <color=yellow>luminous, yellow eyes</color> stares back at Niko.+
+===
+title: Toilet
+tags: 
+colorID: 0
+position: 1331,422
+---
+-There's no water in the toilet.+
+===
+title: Tub
+tags: 
+colorID: 0
+position: 136,430
+---
+-The tub won't run.+
+===
+title: Window
+tags: 
+colorID: 0
+position: 136,430
+---
+-A soft, glowing light trickles through the window+
+===
+
+title: Window2
+tags: 
+colorID: 0
+position: 136,430
+---
+-In the faint light, Niko can glimpse the face of the remote...+
+-all of the numbers except <color=red>{$Red}</color>, <color=green>{$Green}</color>, <color=blue>{$Blue}</color>,  and <color=yellow>{$Yellow}</color> are missing.+
+===
