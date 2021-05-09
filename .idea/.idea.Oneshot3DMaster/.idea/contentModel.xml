@@ -796,6 +796,7 @@
           <e p="Alignmentscript.cs" t="Include" />
           <e p="CameraTransferScript.cs" t="Include" />
           <e p="Carpetsound.cs" t="Include" />
+          <e p="CinemachineTargetPlayer.cs" t="Include" />
           <e p="Computer.cs" t="Include" />
           <e p="CraftingSystem.cs" t="Include" />
           <e p="DoorAnim.cs" t="Include" />

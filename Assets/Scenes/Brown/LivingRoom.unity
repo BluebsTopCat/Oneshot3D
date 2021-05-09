@@ -14166,8 +14166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219dc38b8b3bf2942bb433d8e9810143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: 
-  talkToNode: 
+  characterName: BasementDoor
+  talkToNode: BasementDoor
   scriptToLoad: {fileID: 2480198943629176163, guid: 8bcfa48538ff44e4581100a9711dcd6a, type: 3}
 --- !u!1 &661080849
 GameObject:
@@ -17739,6 +17739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203243639}
+  - component: {fileID: 1203243640}
   m_Layer: 0
   m_Name: DoorToBasement
   m_TagString: Untagged
@@ -17762,6 +17763,20 @@ Transform:
   m_Father: {fileID: 2004270697}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203243640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203243638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafde110b64c031429f08f8d93dbd9f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g:
+  - {fileID: 826547508}
 --- !u!1 &1207414375
 GameObject:
   m_ObjectHideFlags: 0

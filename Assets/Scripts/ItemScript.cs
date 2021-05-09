@@ -12,11 +12,11 @@ public class ItemScript : MonoBehaviour
         if (gameObject.name == "Unequip")
         {
             player.activeitem = -1;
-            FindObjectOfType<InMemoryVariableStorage>().SetValue("Equipped", -1);
+            FindObjectOfType<InMemoryVariableStorage>().SetValue("$Equipped", -1);
             return;
         }
 
-        FindObjectOfType<InMemoryVariableStorage>().SetValue("Equipped", int.Parse(name));
+        FindObjectOfType<InMemoryVariableStorage>().SetValue("$Equipped", int.Parse(name));
         player.equipiten(int.Parse(name));
     }
 }

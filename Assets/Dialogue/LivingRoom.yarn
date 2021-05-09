@@ -95,3 +95,17 @@ position: 0,0
 <<destroy EventMaster KeyFloor>>
 <<give EventMaster 7>>
 ===
+title: BasementDoor
+tags:
+colorID: 0
+position: 0,0
+---
+<<if $Equipped is 7>>
+-The key fits in the hole perfectly, but snaps on the way out+
+<<destroy EventMaster LockedDoor>>
+<<take EventMaster 7>>
+<<enableobject DoorToBasement>>
+<<else>>
+-The door is locked+
+<<endif>>
+===
