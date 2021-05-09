@@ -26,24 +26,25 @@ SOFTWARE.
 
 using UnityEngine;
 
-namespace Yarn.Unity.Example {
+namespace Yarn.Unity.Example
+{
     /// attached to the non-player characters, and stores the name of the Yarn
     /// node that should be run when you talk to them.
-    public class NPC : MonoBehaviour {
-
+    public class NPC : MonoBehaviour
+    {
         public string characterName = "";
 
         public string talkToNode = "";
 
-        [Header("Optional")]
-        public YarnProgram scriptToLoad;
+        [Header("Optional")] public YarnProgram scriptToLoad;
 
-        void OnEnable() {
-            if (scriptToLoad != null) {
-                DialogueRunner dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+        private void OnEnable()
+        {
+            if (scriptToLoad != null)
+            {
+                var dialogueRunner = FindObjectOfType<DialogueRunner>();
                 dialogueRunner.Add(scriptToLoad);
             }
         }
     }
-
 }

@@ -20,15 +20,143 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da966d2e-d4e2-436f-93f0-b0d17caabe39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/ChangeLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/ChangeLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DitheringNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DitheringNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOcclusionMappingNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOcclusionMappingNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/TriplanarNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/TriplanarNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/CustomExpressionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/CustomExpressionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/ASEDiffusionProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/ASEDiffusionProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/DiffusionProfileNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/DiffusionProfileNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/HDEmissionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/HDEmissionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/UndoParentNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/UndoParentNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateTagsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateTagsModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEPackageManagerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEPackageManagerHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomMaterialInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomMaterialInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomShaderInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomShaderInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/InlineProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/InlineProperty.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/UIUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/UIUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/WindowHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/WindowHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Version/VersionInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Version/VersionInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Reconstruct World Position From Depth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Reconstruct World Position From Depth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Decal.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Decal.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Fabric.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Fabric.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Hair.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Hair.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Lit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Lit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Unlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/HD/Unlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/DefaultUnlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/DefaultUnlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/Sprites-Default.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/Sprites-Default.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/UIDefault.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/UIDefault.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/UnlitLightmap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/UnlitLightmap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bookshelf.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bookshelf.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/OpRoom.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/OpRoom.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Dialogue/_est.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/_est.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/DXR Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/DXR Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/DefaultSceneRoot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/DefaultSceneRoot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/Sky and Fog Settings Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DXR/Sky and Fog Settings Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HaveEquippedItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HaveEquippedItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Inputthing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Inputthing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bookshelf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bookshelf.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Testing.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Testing.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/dark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.001.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.001.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.002.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.003.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.004.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.004.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.005.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.005.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.006.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.006.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.007.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.007.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/ObjObject.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Floor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/_emote.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Materials/_emote.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/floors-3.png_specular.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Materials/floors-3.png_specular.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/_loor.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_loor.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/smooth.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/smooth.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/walls.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/walls.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bulb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bulb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RemoteRandomiser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RemoteRandomiser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lighting Profile 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lighting Profile 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lighting Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lighting Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/DestroyItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/DestroyItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/GiveItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/GiveItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/ItemLib.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/ItemLib.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Settings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sin.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sin.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sin.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sin.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerminusTTF-Bold.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TerminusTTF-Bold.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SRoom.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SRoom.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sheen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sheen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/window.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/window.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +167,63 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Editor/YarnImporterEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA794459-0845-437F-86A9-78879988482B/ed/456affc8/Value.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Editor/YarnImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/InMemoryVariableStorage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/87/9d9e51d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CraftingSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/DFD19702-34D8-46AD-90F4-E80666E8CD49/37/bd310334/0200000Bpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFC774E3-9F15-4E8B-ACC0-AAE5397B53AE/eb/383559e5/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB4ED992-9FE0-4849-BBE2-B059CBA4D31F/ad/bfa02973/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/DFD19702-34D8-46AD-90F4-E80666E8CD49/f3/3e06e8c4/0200000Cpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HaveEquippedItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualeffectgraph@8.2.0/Runtime/Utilities/PropertyBinding/Implementation/VFXInputButtonBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VariableEnabler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/HaveEquippedItem.cs" />
-        <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Inputthing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alignmentscript.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraTransferScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/threedbutton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZoneMaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Iteminmenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HaveEquippedItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TakeItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Carpetsound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Libs/GiveItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CraftingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetVar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Playsound.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/InMemoryVariableStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/DialogueVars.json" />
+        <option value="$PROJECT_DIR$/Assets/VariableEnabler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/EnableObject.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA794459-0845-437F-86A9-78879988482B/ed/456affc8/Value.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inputthing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveDialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorAnim.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +242,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -106,6 +279,61 @@
       <workItem from="1608605358146" duration="714000" />
       <workItem from="1608613908018" duration="3119000" />
       <workItem from="1608667614921" duration="4675000" />
+      <workItem from="1608699541118" duration="5133000" />
+      <workItem from="1608973480458" duration="1352000" />
+      <workItem from="1609025033668" duration="4703000" />
+      <workItem from="1609732919830" duration="1530000" />
+      <workItem from="1610397420474" duration="265000" />
+      <workItem from="1610402571740" duration="6000" />
+      <workItem from="1610604368575" duration="1847000" />
+      <workItem from="1612676054536" duration="1668000" />
+      <workItem from="1612805147789" duration="209000" />
+      <workItem from="1612934768141" duration="2372000" />
+      <workItem from="1613265316119" duration="5053000" />
+      <workItem from="1613335710431" duration="959000" />
+      <workItem from="1613339253191" duration="8928000" />
+      <workItem from="1613366886673" duration="5176000" />
+      <workItem from="1613376325509" duration="1236000" />
+      <workItem from="1613513703350" duration="4506000" />
+      <workItem from="1613871225467" duration="8441000" />
+      <workItem from="1613895371665" duration="1810000" />
+      <workItem from="1613935941242" duration="2933000" />
+      <workItem from="1613953270721" duration="2567000" />
+      <workItem from="1614314240869" duration="2000" />
+      <workItem from="1614314326126" duration="988000" />
+      <workItem from="1615094994012" duration="875000" />
+      <workItem from="1615097070584" duration="1168000" />
+      <workItem from="1615172006876" duration="1406000" />
+      <workItem from="1615177763164" duration="3596000" />
+      <workItem from="1615266329742" duration="6622000" />
+      <workItem from="1615358786266" duration="1202000" />
+      <workItem from="1615408337452" duration="971000" />
+      <workItem from="1615417101218" duration="1016000" />
+      <workItem from="1615488257330" duration="6604000" />
+      <workItem from="1615531798687" duration="1045000" />
+      <workItem from="1615584510493" duration="4409000" />
+      <workItem from="1615593807235" duration="600000" />
+      <workItem from="1615605011533" duration="2870000" />
+      <workItem from="1615700121201" duration="4866000" />
+      <workItem from="1615759890010" duration="1230000" />
+      <workItem from="1616175011846" duration="3153000" />
+      <workItem from="1616290392782" duration="1480000" />
+      <workItem from="1616313258499" duration="296000" />
+      <workItem from="1616539295952" duration="1668000" />
+      <workItem from="1616542016020" duration="553000" />
+      <workItem from="1616553781715" duration="2984000" />
+      <workItem from="1616627096557" duration="4009000" />
+      <workItem from="1616646615055" duration="1900000" />
+      <workItem from="1616651448661" duration="122000" />
+      <workItem from="1616798065405" duration="2200000" />
+      <workItem from="1616807431881" duration="1574000" />
+      <workItem from="1616905160844" duration="1535000" />
+      <workItem from="1616995915389" duration="474000" />
+      <workItem from="1617424211559" duration="616000" />
+      <workItem from="1617564740975" duration="1329000" />
+      <workItem from="1618462685227" duration="1891000" />
+      <workItem from="1620002420375" duration="6686000" />
+      <workItem from="1620532322905" duration="759000" />
     </task>
     <servers />
   </component>
@@ -124,14 +352,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="707" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1615489007297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1615489007297" />
+    <state x="727" y="244" key="RiderGenerateDialog" timestamp="1613873221914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613873221914" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1613266448465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613266448465" />
     <state x="758" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608615932827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608615932827" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1615605574759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615605574759" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615179944791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615179944791" />
   </component>
 </project>

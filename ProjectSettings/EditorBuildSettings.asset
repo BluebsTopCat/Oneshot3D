@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Brown/Oproom.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Brown/LivingRoom.unity
+    guid: 664df2b2179781f46bc69911af2eb242
+  - enabled: 1
+    path: Assets/Scenes/Brown/BulbRoom.unity
+    guid: f1ebb186d316b204aac707c1cccad677
   m_configObjects: {}

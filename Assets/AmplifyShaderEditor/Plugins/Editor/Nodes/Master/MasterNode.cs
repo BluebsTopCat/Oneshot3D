@@ -269,7 +269,15 @@ namespace AmplifyShaderEditor
 #if UNITY_2018_3_OR_NEWER
 					if( ASEPackageManagerHelper.CurrentHDVersion > ASESRPVersions.ASE_SRP_6_9_1 )
 					{
-						AddMenuItem( menu, "UnityEditor.Rendering.HighDefinition.HDLitGUI" );
+						if( ASEPackageManagerHelper.CurrentHDVersion > ASESRPVersions.ASE_SRP_10_0_0 )
+						{
+							AddMenuItem( menu, "Rendering.HighDefinition.LightingShaderGraphGUI" );
+							AddMenuItem( menu, "Rendering.HighDefinition.HDUnlitGUI" );
+						}
+						else
+						{
+							AddMenuItem( menu, "UnityEditor.Rendering.HighDefinition.HDLitGUI" );
+						}
 						AddMenuItem( menu, "UnityEditor.ShaderGraph.PBRMasterGUI" );
 					}
 					else

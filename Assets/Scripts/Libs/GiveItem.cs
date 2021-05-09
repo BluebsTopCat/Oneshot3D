@@ -1,19 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using Yarn.Unity;
-using Yarn.Unity.Example;
 using YarnSpinner;
 
-public class GiveItem: MonoBehaviour
+public class GiveItem : MonoBehaviour
 {
     public Movement player;
+    public AudioSource getitem;
     [YarnCommand("give")]
     public void Give(string itemid)
     {
         Debug.Log("Gave item " + itemid);
         player.items.Add(int.Parse(itemid));
+        player.saveinventory();
+        getitem.Play();
     }
-    
 }

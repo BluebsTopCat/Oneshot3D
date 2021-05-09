@@ -26,6 +26,7 @@ SOFTWARE.
 
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Yarn.Unity;
 using Yarn.Unity.Example;
@@ -43,24 +44,50 @@ namespace YarnSpinner
         public GameObject publicobject;
         public ItemLib itemlibrary;
 
-        private readonly List<GameObject> buttons = new List<GameObject>();
-        private List<Inventory> itemlibs;
-
         public Image currentequippeddisp;
         public int activeitem = -1;
 
         public Sprite unequipitem;
+        public AudioSource footsteps;
+        public bool oncarpet = false;
+        public AudioClip wood;
+        public AudioClip carpet;
+        private readonly List<GameObject> buttons = new List<GameObject>();
+        private List<Inventory> itemlibs;
 
+        
+        public AudioSource openmenu;
+        public AudioSource closemenu;
+        public AudioSource selectitem;
+
+        public Animator PlayerAnim;
+        private static readonly int Speed = Animator.StringToHash("Speed");
+
+        private float coyotetime;
+
+        private bool deleteonquit = false;
         /// Update is called once per frame
         private void Start()
         {
+
+            DontDestroyOnLoad(gameObject);
             itemlibs = itemlibrary.items;
+            loadinventory(); 
         }
 
         private void Update()
         {
-            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false) return;
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                deleteonquit = true;
 
+            }
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false) 
+            {
+                footsteps.mute = true;
+                PlayerAnim.SetFloat(Speed,0);
+                return;
+            }
             var horizontal = Input.GetAxis("Horizontal");
             var vertical = Input.GetAxis("Vertical");
 
@@ -68,6 +95,7 @@ namespace YarnSpinner
             forward.y = 0f;
             forward = forward.normalized;
 
+            PlayerAnim.SetFloat(Speed, Mathf.Max(Mathf.Abs(horizontal),Mathf.Abs(vertical)));
             var right = new Vector3(forward.z, 0f, -forward.x);
 
             var localMoveDir = new Vector3(horizontal, 0f, vertical);
@@ -78,35 +106,41 @@ namespace YarnSpinner
                     10f * Time.smoothDeltaTime);
                 transform.eulerAngles = new Vector3(0f, transform.eulerAngles.y, 0f);
             }
-
+            
             if (localMoveDir.sqrMagnitude > 1f)
                 localMoveDir = localMoveDir.normalized;
 
-            charController.Move(localMoveDir * moveSpeed * Time.deltaTime);
+            //Gravity
+            if (!grounded())
+                coyotetime += Time.deltaTime;
+            else
+                coyotetime = 0;
+            charController.Move(localMoveDir * moveSpeed * Time.deltaTime + Vector3.down * coyotetime * 9.8f * Time.deltaTime);
+
+            footsteps.mute = (Mathf.Abs(vertical) < .25 && Mathf.Abs(horizontal) < .25);
 
             //inventory code
             if (Input.GetKeyDown(KeyCode.Tab))
             {
                 foreach (var item in items)
                 {
-                    var button = Instantiate(publicobject);
+                    var button = Instantiate(publicobject, itemimages.transform, true);
                     button.name = item.ToString();
                     button.GetComponent<Image>().sprite = itemlibs[item].icon;
-                    button.transform.parent = itemimages.transform;
                     buttons.Add(button);
                 }
 
-                var ubutton = Instantiate(publicobject);
+                var ubutton = Instantiate(publicobject, itemimages.transform, true);
                 ubutton.name = "Unequip";
                 ubutton.GetComponent<Image>().sprite = unequipitem;
-                ubutton.transform.parent = itemimages.transform;
                 buttons.Add(ubutton);
+                openmenu.Play();
             }
 
             if (Input.GetKey(KeyCode.Tab))
             {
                 itemimages.SetActive(true);
-                itemimages.gameObject.transform.position = new Vector3(50,
+                itemimages.gameObject.transform.position = new Vector3(75,
                     itemimages.transform.position.y + Input.mouseScrollDelta.y * 10, 0);
             }
 
@@ -115,7 +149,8 @@ namespace YarnSpinner
                 foreach (var item in buttons) Destroy(item);
 
                 itemimages.SetActive(false);
-                itemimages.gameObject.transform.localPosition = new Vector3(50, 0, 0);
+                itemimages.gameObject.transform.localPosition = new Vector3(75, 0, 0);
+                closemenu.Play();
             }
 
             if (activeitem == -1)
@@ -125,13 +160,18 @@ namespace YarnSpinner
             if (Input.GetKeyDown(KeyCode.Space)) CheckForNearbyNPC();
         }
 
+        private void OnApplicationQuit()
+        {
+           saveinventory();
+        }
+
         // Draw the range at which we'll start talking to people.
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.blue;
 
             // Flatten the sphere into a disk, which looks nicer in 2D games
-            Gizmos.matrix = Matrix4x4.TRS(transform.position, Quaternion.identity, new Vector3(1, 1, 1));
+            Gizmos.matrix = Matrix4x4.TRS(transform.position + transform.forward*1, Quaternion.identity, new Vector3(1, 1, 1));
 
             // Need to draw at position zero because we set position in the line above
             Gizmos.DrawWireSphere(Vector3.zero, interactionRadius);
@@ -148,11 +188,11 @@ namespace YarnSpinner
             var target = allParticipants.Find(delegate(NPC p)
             {
                 return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
-                       (p.transform.position - transform.position) // is in range?
+                       (p.transform.position - (transform.position+ transform.forward*1)) // is in range?
                        .magnitude <= interactionRadius;
             });
             if (target != null)
-                // Kick off the dialogue at this node.
+                // Kick off the dialogue at this node.    
                 FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
         }
 
@@ -161,6 +201,36 @@ namespace YarnSpinner
             Debug.Log(itemlibs[id].name + " Equipped!");
             currentequippeddisp.sprite = itemlibs[id].icon;
             activeitem = id;
+            selectitem.Play();
+        }
+
+        public void saveinventory()
+        {
+            for (var i = 0; i < items.Count; i++) PlayerPrefs.SetInt("Slot_" + i, items[i]);
+            PlayerPrefs.SetInt("INV_Size", items.Count);
+            PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex);
+            var position = this.transform.position;
+            PlayerPrefs.SetFloat("PlayerPosX", position.x);
+            PlayerPrefs.SetFloat("PlayerPosY", position.y);
+            PlayerPrefs.SetFloat("PlayerPosZ", position.z);
+            var eulerAngles = this.transform.eulerAngles;
+            PlayerPrefs.SetFloat("PlayerRotX", eulerAngles.x);
+            PlayerPrefs.SetFloat("PlayerRotY", eulerAngles.y);
+            PlayerPrefs.SetFloat("PlayerRotZ", eulerAngles.z);
+            if(deleteonquit)
+                PlayerPrefs.DeleteAll();
+        }
+
+        public void loadinventory()
+        {
+            for (var i = 0; i < PlayerPrefs.GetInt("INV_Size"); i++) items.Add(PlayerPrefs.GetInt("Slot_" + i));
+        }
+
+        bool grounded()
+        {
+            if(Physics.Raycast(this.transform.position + Vector3.down * 1.01f, Vector3.down, .1f))
+                return true;
+            return false;
         }
     }
 }

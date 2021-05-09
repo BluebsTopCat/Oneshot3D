@@ -6,5 +6,6 @@ position: 868,329
 -There's a <color=grey>TV Remote</color> here.+
 -Niko picks it up.+
 <<give EventMaster 1>>
+<<setvar EventMaster gotremote true>>
 <<destroy EventMaster Remote>>
 ===

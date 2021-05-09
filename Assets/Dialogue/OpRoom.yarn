@@ -1,10 +1,3 @@
-title: Filler
-tags: 
-colorID: 0
-position: 860,428
----
-This doesn't function
-===
 
 title: Bed
 tags: 
@@ -28,7 +21,19 @@ colorID: 0
 position: 1104,426
 ---
 -A withered plant sits here, stiff and dry.+
+<<if $gotbranch is 1>>
 -There's no need to do anything else to it.+
+<<endif>>
+
+<<if $gotbranch is 0>>
+<<wait .3>>
+<<playsound EventMaster Branch>>
+<<wait 2>>
+-A branch snaps off.+
+<<give EventMaster 2>>
+<<set $gotbranch to 1>>
+<<endif>>
+
 ===
 title: Mirror
 tags: 
@@ -65,5 +70,21 @@ colorID: 0
 position: 136,430
 ---
 -In the faint light, Niko can glimpse the face of the remote...+
--all of the numbers except <color=red>{$Red}</color>, <color=green>{$Green}</color>, <color=blue>{$Blue}</color>,  and <color=yellow>{$Yellow}</color> are missing.+
+-all of the numbers except <color=red>{$Red}</color>, <color=green>{$Green}</color>, <color=blue>{$Blue}</color>, and <color=yellow>{$Yellow}</color> are missing.+
+===
+title: Door
+tags: 
+colorID: 0
+position: 136,430
+---
+-Niko hears the sound of a door unlocking.+
+<<Destroy EventMaster DoorBlocker>>
+===
+
+title: DoorL
+tags: 
+colorID: 0
+position: 136,430
+---
+-The door is locked+
 ===

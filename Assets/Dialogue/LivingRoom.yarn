@@ -1,0 +1,97 @@
+title: Fridge
+tags: 
+colorID: 0
+position: 808,332
+---
+<<if $gotalcohol is 1>>
+-The refrigerator is empty.+
+<<endif>>
+<<if $gotalcohol is 0>>
+-Inside the refrigerator is a <color=red>bottle of alcohol</color>.+
+<<give EventMaster 3>>
+<<set $gotalcohol to 1>>
+-Niko takes it.+
+<<endif>>
+===
+title: Table
+tags: 
+colorID: 0
+position: 609,326
+---
+-Just a Table.+
+===
+title: Chair
+tags: 
+colorID: 0
+position: 290,359
+---
+-Just a Chair+
+===
+title: Sink
+tags: 
+colorID: 0
+position: 717,-204
+---
+-The sink won't turn on.+
+===
+title: Television
+tags: 
+colorID: 0
+position: 179,-230
+---
+-The TV gives off a dangerous—looking <color=green>spark</color>.+
+===
+title: TelevisionFail
+tags: 
+colorID: 0
+position: -81,80
+---
+-Niko readies the branch...+
+-It doesn't manage to light.+
+===
+title: TelevisionSucceed
+tags: 
+colorID: 0
+position: 448,-237
+---
+-Niko readies the branch...+
+Ah!
+<<give EventMaster 6>>
+<<take EventMaster 5>>
+===
+title: Fireplace
+tags: 
+colorID: 0
+position: 616,92
+---
+-A Fireplace+
+<<if $fireplacelit is 0>>
+-The wood looks like it was never used.+
+-Perhaps it could be <color=yellow>lit</color>.+
+<<endif>>
+<<if $fireplacelit is 1>>
+-The <color=yellow>flames</color> are dim but comforting.+
+<<endif>>
+===
+title: LightFirePlace
+tags: 
+colorID: 0
+position: -19,357
+---
+<<enableobject Chimmey>>
+-The branch lights the fireplace, burning up in the process+
+<<take EventMaster 6>>
+<<set $fireplacelit to 1>>
+-The <color=yellow>flames</color> are dim but comforting.+
+===
+title: Key
+tags:
+colorID: 0
+position: 0,0
+---
+-Something on the ground glimmers in the firelight.+
+-It appears to be a small metallic object,wedged into a crack in the floor.+
+-Niko digs it out.+
+<<destroy EventMaster KeyFloor>>
+<<give EventMaster 7>>
+===
