@@ -261,12 +261,13 @@ Material:
     - _ZTestModeDistortion: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
+    - __dirty: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 1, b: 0.29019594, a: 0}
-    - _Color2: {r: 1, g: 0.8666667, b: 0.23921552, a: 0}
+    - _Color1: {r: 1, g: 1, b: 0.2901959, a: 0}
+    - _Color2: {r: 1, g: 0.8666667, b: 0.2392155, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -275,7 +276,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineColorOff: {r: 0.49803895, g: 0.7058823, b: 0.737255, a: 0}
+    - _OutlineColorOff: {r: 0.4980389, g: 0.7058823, b: 0.737255, a: 0}
     - _OutlineColorOn: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

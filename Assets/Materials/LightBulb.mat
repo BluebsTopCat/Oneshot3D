@@ -204,7 +204,7 @@ Material:
     - _NormalScale: 1
     - _OnOff: 0
     - _OpaqueCullMode: 2
-    - _OutlineSize: 4
+    - _OutlineSize: 20
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -265,8 +265,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 1, b: 0.29019594, a: 0}
-    - _Color2: {r: 1, g: 0.8666667, b: 0.23921552, a: 0}
+    - _Color1: {r: 1, g: 1, b: 0.29019588, a: 0}
+    - _Color2: {r: 1, g: 0.8666667, b: 0.23921546, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -275,7 +275,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineColorOff: {r: 0.49803895, g: 0.7058823, b: 0.737255, a: 0}
+    - _OutlineColorOff: {r: 0.4980389, g: 0.7058823, b: 0.737255, a: 0}
     - _OutlineColorOn: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

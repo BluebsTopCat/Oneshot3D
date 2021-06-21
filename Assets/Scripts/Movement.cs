@@ -68,6 +68,11 @@ namespace YarnSpinner
         private float coyotetime;
 
         private bool deleteonquit = false;
+        private float turnsmoothtime = 0.1f;
+        private float turnsmoothvelocity;
+
+        public bool mouselocked;
+        public bool ininventory = false;
         /// Update is called once per frame
         private void Start()
         {
@@ -79,45 +84,57 @@ namespace YarnSpinner
 
         private void Update()
         {
+
+
+
+            //DELETE THIS IN PROD 
             if (Input.GetKeyDown(KeyCode.P))
             {
                 deleteonquit = true;
-
+                Debug.Log("Purged the Variables for reset");
             }
-            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false) 
+
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false)
             {
                 footsteps.mute = true;
-                PlayerAnim.SetFloat(Speed,0);
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
+                PlayerAnim.SetFloat(Speed, 0);
                 return;
             }
+
+            if (Input.GetMouseButtonDown(0))
+                mouselocked = true;
+
+            if (Input.GetKeyDown(KeyCode.I))
+                ininventory = !ininventory;
+
+
             var horizontal = Input.GetAxis("Horizontal");
             var vertical = Input.GetAxis("Vertical");
 
-            var forward = Camera.main.transform.TransformDirection(Vector3.forward);
-            forward.y = 0f;
-            forward = forward.normalized;
+            Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-            PlayerAnim.SetFloat(Speed, Mathf.Max(Mathf.Abs(horizontal),Mathf.Abs(vertical)));
-            var right = new Vector3(forward.z, 0f, -forward.x);
+            PlayerAnim.SetFloat(Speed, Mathf.Max(Mathf.Abs(horizontal), Mathf.Abs(vertical)));
 
-            var localMoveDir = new Vector3(horizontal, 0f, vertical);
-
-            if (localMoveDir != Vector3.zero)
+            if (direction.magnitude > 0.1f)
             {
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(localMoveDir),
-                    10f * Time.smoothDeltaTime);
-                transform.eulerAngles = new Vector3(0f, transform.eulerAngles.y, 0f);
+                float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg +
+                                    Camera.main.transform.eulerAngles.y;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnsmoothvelocity,
+                    turnsmoothtime);
+                transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
+                Vector3 movedir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                charController.Move(movedir.normalized * moveSpeed * Time.deltaTime);
             }
-            
-            if (localMoveDir.sqrMagnitude > 1f)
-                localMoveDir = localMoveDir.normalized;
+
 
             //Gravity
             if (!grounded())
                 coyotetime += Time.deltaTime;
             else
                 coyotetime = 0;
-            charController.Move(localMoveDir * moveSpeed * Time.deltaTime + Vector3.down * coyotetime * 9.8f * Time.deltaTime);
+            charController.Move(Vector3.down * coyotetime * 9.8f * Time.deltaTime);
 
             footsteps.mute = (Mathf.Abs(vertical) < .25 && Mathf.Abs(horizontal) < .25);
 
@@ -142,6 +159,7 @@ namespace YarnSpinner
             if (Input.GetKey(KeyCode.Tab))
             {
                 itemimages.SetActive(true);
+                mouselocked = false;
                 itemimages.gameObject.transform.position = new Vector3(75,
                     itemimages.transform.position.y + Input.mouseScrollDelta.y * 10, 0);
             }
@@ -149,7 +167,7 @@ namespace YarnSpinner
             if (Input.GetKeyUp(KeyCode.Tab))
             {
                 foreach (var item in buttons) Destroy(item);
-
+                mouselocked = true;
                 itemimages.SetActive(false);
                 itemimages.gameObject.transform.localPosition = new Vector3(75, 0, 0);
                 closemenu.Play();
@@ -160,6 +178,19 @@ namespace YarnSpinner
             else
                 currentequippeddisp.gameObject.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Space)) CheckForNearbyNPC();
+            if (ininventory)
+                mouselocked = false;
+            if (mouselocked)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
+            }
+
         }
 
         private void OnApplicationQuit()

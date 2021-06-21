@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Cinemachine;
+using TMPro;
 using UnityEngine;
 using Yarn.Unity;
 using YarnSpinner;
@@ -19,7 +20,7 @@ public class Computer : MonoBehaviour
     private bool inwindow;
     private Movement player;
     private GameObject playermesh;
-    public GameObject othercameracontroller;
+    public CinemachineVirtualCamera vc;
     private void Start()
     {
         if (PlayerPrefs.GetInt("CompletedRoom1") == 1)
@@ -40,7 +41,7 @@ public class Computer : MonoBehaviour
                 Vector3.Distance(player.gameObject.transform.position, gameObject.transform.position) <
                 interactionradius && player.canmove)
             {
-                othercameracontroller.SetActive(false);
+                vc.Priority = 100;
                 passwordscreen.gameObject.SetActive(true);
                 passwordscreen.highlight(tmpinf);
                 player.PlayerAnim.gameObject.SetActive(false);
@@ -52,7 +53,7 @@ public class Computer : MonoBehaviour
         {
             if (textline >= dialogue.Length)
             {
-                othercameracontroller.SetActive(true);
+                vc.Priority = 0;
                 
                 player.PlayerAnim.gameObject.SetActive(true);
                 playermesh.SetActive(true);
@@ -94,6 +95,6 @@ public class Computer : MonoBehaviour
     {
         playermesh.SetActive(true);
         player.canmove = true;
-        othercameracontroller.SetActive(true);
+        vc.Priority = 0;
     }
 }

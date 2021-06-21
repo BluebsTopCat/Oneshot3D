@@ -5,7 +5,6 @@
     <e p="C:\Users\badid\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Oneshot3DMaster.124600687.00" t="ExcludeRecursive" />
     <e p="C:\Users\badid\Oneshot3DMaster" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AmplifyShaderEditor" t="Include">
@@ -761,6 +760,12 @@
                 <e p="SRP (Legacy)" t="Include">
                   <e p="README.txt" t="Include" />
                 </e>
+                <e p="Universal" t="Include">
+                  <e p="2DLit.shader" t="Include" />
+                  <e p="2DUnlit.shader" t="Include" />
+                  <e p="PBR.shader" t="Include" />
+                  <e p="Unlit.shader" t="Include" />
+                </e>
               </e>
             </e>
           </e>
@@ -769,29 +774,10 @@
         <e p="Materials" t="Include">
           <e p="Bulb.shader" t="Include" />
           <e p="CoolShadinig.shader" t="Include" />
+          <e p="Eyes.shader" t="Include" />
         </e>
-        <e p="Samples" t="Include">
-          <e p="High Definition RP" t="Include">
-            <e p="10.3.1" t="Include">
-              <e p="Procedural Sky" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="ProceduralSky" t="Include">
-                    <e p="ProceduralSkyEditor.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="Runtime" t="Include">
-                  <e p="ProceduralSky" t="Include">
-                    <e p="ProceduralSky.cs" t="Include" />
-                    <e p="ProceduralSkyRenderer.cs" t="Include" />
-                    <e p="Resources" t="Include">
-                      <e p="ProceduralSky.shader" t="Include" />
-                    </e>
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
+        <e p="Mirror.shader" t="Include" />
+        <e p="MirrorReflection.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Alignmentscript.cs" t="Include" />
           <e p="CameraTransferScript.cs" t="Include" />
@@ -799,6 +785,7 @@
           <e p="CinemachineTargetPlayer.cs" t="Include" />
           <e p="Computer.cs" t="Include" />
           <e p="CraftingSystem.cs" t="Include" />
+          <e p="CutScenePlayer.cs" t="Include" />
           <e p="DoorAnim.cs" t="Include" />
           <e p="HaveEquippedItem.cs" t="Include" />
           <e p="Inputthing.cs" t="Include" />

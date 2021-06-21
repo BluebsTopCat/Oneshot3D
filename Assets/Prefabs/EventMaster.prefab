@@ -338,29 +338,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - name: Lightbulb
-    description: The sun of this world.
+    description: A large lightbulb. It's the sun.
     icon: {fileID: 21300000, guid: ef78ca74a559547498fb415cb40ac664, type: 3}
   - name: Remote
-    description: A few of the buttons have numbers, but it's too dark to make them
-      out.
+    description: All but a few buttons are scratched out, but It's too hard to read
+      them in the dark light.
     icon: {fileID: 21300000, guid: 4f78b0a52bb18254db0db3a22373026d, type: 3}
   - name: Branch
-    description: A raggedy branch, ripped from a dying plant.
+    description: A flaky, dry branch from the bathroom plant.
     icon: {fileID: 21300000, guid: acdc8e8c4897ea84196c5b203428730f, type: 3}
   - name: Alcohol
-    description: A dusty bottle, from the back of the fridge.
+    description: The smell of the liquid is repugnant.
     icon: {fileID: 21300000, guid: 0c598c45689a4d34993cf903f6ecc5a1, type: 3}
   - name: Empty Bottle
-    description: Nothing in it.
+    description: The smell of alcohol lingers.
     icon: {fileID: 21300000, guid: b1f690145eb572d41a98ecf8be767244, type: 3}
   - name: Wet Branch
-    description: It reeks of alcohol.
+    description: The tip of the branch is soaked with alcohol.
     icon: {fileID: 21300000, guid: 2565ff53402799f4d924cb194429f0d0, type: 3}
   - name: Burning Branch
-    description: Where do you store it?
+    description: Doesn't give off much light. Where do you store it?
     icon: {fileID: 21300000, guid: 17a258cdcb2cf384695abb668d271937, type: 3}
   - name: Key
-    description: An old key, made of rusted iron.
+    description: This thing looks old.
     icon: {fileID: 21300000, guid: 69f5f97dc34dd214e9d5c5930e414107, type: 3}
 --- !u!114 &1985058728109348013
 MonoBehaviour:
