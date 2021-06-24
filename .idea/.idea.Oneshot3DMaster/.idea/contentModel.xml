@@ -771,6 +771,7 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
+        <e p="Fog.shader" t="Include" />
         <e p="Materials" t="Include">
           <e p="Bulb.shader" t="Include" />
           <e p="CoolShadinig.shader" t="Include" />

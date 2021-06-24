@@ -73,6 +73,7 @@ namespace YarnSpinner
 
         public bool mouselocked;
         public bool ininventory = false;
+        public CinemachineFreeLook cfl;
         /// Update is called once per frame
         private void Start()
         {
@@ -97,12 +98,15 @@ namespace YarnSpinner
             if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false)
             {
                 footsteps.mute = true;
+                cfl.m_XAxis.m_MaxSpeed = 0.0f;
+                cfl.m_YAxis.m_MaxSpeed = 0.0f;
                 Cursor.lockState = CursorLockMode.Confined;
                 Cursor.visible = true;
                 PlayerAnim.SetFloat(Speed, 0);
                 return;
             }
-
+            cfl.m_XAxis.m_MaxSpeed = 300.0f;
+            cfl.m_YAxis.m_MaxSpeed = 2.0f;
             if (Input.GetMouseButtonDown(0))
                 mouselocked = true;
 

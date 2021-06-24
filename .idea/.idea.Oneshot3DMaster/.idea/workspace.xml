@@ -22,115 +22,65 @@
     <list default="true" id="da966d2e-d4e2-436f-93f0-b0d17caabe39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/Close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Close.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueVars.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueVars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Bed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bookshelf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bookshelf.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bulb Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bulb Base.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bulb.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bulb.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Camera.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Camera.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carpet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carpet.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Chimmey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Chimmey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoolShadinig.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CoolShadinig.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Couches.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Couches.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Door.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Door.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Error Message.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Error Message.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Eyes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Eyes.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Filament.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Filament.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FilamentOn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FilamentOn.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hat1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hat1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Hat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Hat2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/KitchenItems.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/KitchenItems.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightBulb 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightBulb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Plant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Plant.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Scarf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Scarf.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shirt.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/TV.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TV.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Tiles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_esktop.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_esktop.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/dark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/door 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/door 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/walls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/window.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/window.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bathroom Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bathroom Mirror.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bubl.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bubl.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bubl.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bubl.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Carpets/Carpetting-8.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Carpets/Carpetting-8.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/FancyDoor.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/FancyDoor.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/offreference.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Materials/offreference.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_SRoom.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_SRoom.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_emote.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_emote.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_esting.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_esting.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_esting.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_esting.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_irror.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_irror.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_loor.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_loor.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_ndroom.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_ndroom.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_ndroom.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_ndroom.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/bathroom.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/bathroom.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/doors.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/doors.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/offreference.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/offreference.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/stairs.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/stairs.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/yumenikkireference.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/yumenikkireference.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EventMaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EventMaster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Editor/ProceduralSky.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Editor/ProceduralSky/ProceduralSkyEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Editor/ProceduralSky/ProceduralSkyEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/ProceduralSky.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/ProceduralSky.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/ProceduralSkyRenderer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/ProceduralSkyRenderer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/Resources/ProceduralSky.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.3.1/Procedural Sky/Runtime/ProceduralSky/Resources/ProceduralSky.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/BulbRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/BulbRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/OcclusionCullingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/OcclusionCullingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-2.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-2.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-3.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-3.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-4.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-4.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-2.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-2.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-3.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/ReflectionProbe-3.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/SampleScene/Brown Lighting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/SampleScene/Brown Lighting.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Void.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Void.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/ItemLib.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/ItemLib.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sin.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sin.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Camera.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Camera.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,6 +275,7 @@
       <workItem from="1624083987762" duration="2673000" />
       <workItem from="1624167568936" duration="1609000" />
       <workItem from="1624169321755" duration="1731000" />
+      <workItem from="1624412881345" duration="645000" />
     </task>
     <servers />
   </component>
