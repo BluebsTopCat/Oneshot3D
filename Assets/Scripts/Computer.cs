@@ -3,7 +3,8 @@ using TMPro;
 using UnityEngine;
 using Yarn.Unity;
 using YarnSpinner;
-
+using System;
+using System.Runtime.InteropServices;
 public class Computer : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -71,13 +72,15 @@ public class Computer : MonoBehaviour
                 
                 shutdown = true;
                 GetComponent<BoxCollider>().enabled = true;
-                
+                NativeWinAlert.Error("You only have one shot, " + Environment.UserName + ".","...");
                 //do other things here on dialogue completion
             }
-
-            windowtext.text = dialogue[textline];
-            if (Input.GetKeyDown(KeyCode.Space))
-                textline++;
+            else
+            {
+                windowtext.text = dialogue[textline];
+                if (Input.GetKeyDown(KeyCode.Space))
+                    textline++;
+            }
         }
     }
 
@@ -95,6 +98,6 @@ public class Computer : MonoBehaviour
     {
         playermesh.SetActive(true);
         player.canmove = true;
-        vc.Priority = 0;
+        vc.Priority = 0; 
     }
 }

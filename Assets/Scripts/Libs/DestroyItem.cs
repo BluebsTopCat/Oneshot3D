@@ -4,9 +4,10 @@ using Yarn.Unity;
 public class DestroyItem : MonoBehaviour
 {
     [YarnCommand("destroy")]
-    public void Destroy(string playername)
+    public void destroy(string name)
     {
-        Destroy(GameObject.Find(playername).gameObject);
-        Debug.Log("Destroyed " + playername);
+        if(GameObject.Find(name))
+           Destroy(GameObject.Find(name));
+        Debug.Log("Destroyed " + name);
     }
 }

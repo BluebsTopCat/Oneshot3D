@@ -105,6 +105,8 @@ namespace YarnSpinner
                 PlayerAnim.SetFloat(Speed, 0);
                 return;
             }
+            
+            PlayerAnim.SetBool("Bulb?", items.Contains(0));
             cfl.m_XAxis.m_MaxSpeed = 300.0f;
             cfl.m_YAxis.m_MaxSpeed = 2.0f;
             if (Input.GetMouseButtonDown(0))
@@ -129,7 +131,7 @@ namespace YarnSpinner
                     turnsmoothtime);
                 transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
                 Vector3 movedir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-                charController.Move(movedir.normalized * moveSpeed * Time.deltaTime);
+                charController.Move(movedir.normalized * (moveSpeed * Time.deltaTime));
             }
 
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Video;
+using Yarn.Unity;
 using YarnSpinner;
 
 public class CutScenePlayer : MonoBehaviour
@@ -16,20 +17,11 @@ public class CutScenePlayer : MonoBehaviour
     private Movement player;
 
     private InventoryManager im;
-
-    public bool destroyonend;
     // Start is called before the first frame update
     void Start()
     {
         player = Component.FindObjectOfType<Movement>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void play()
     {
         if(active)
@@ -43,8 +35,6 @@ public class CutScenePlayer : MonoBehaviour
         //do cutscene stuff
         yield return new WaitForSeconds((float)toplay.length);    
         onvideoend.Invoke();
-        if(destroyonend)
-            Destroy(this.gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -60,21 +50,7 @@ public class CutScenePlayer : MonoBehaviour
     public void unfreezeplayer()
     {
         player.canmove = true;
-        
+        FindObjectOfType<DialogueRunner>().StartDialogue("LightbulbCutscene");
     }
 
-    public void additem(int itemid)
-    {
-        player.items.Add(itemid);
-    }
-
-    public void removeitem(int itemid)
-    {
-        player.items.Remove(itemid);
-    }
-
-    public void Destroy(GameObject g)
-    {
-        Destroy(g);
-    }
 }

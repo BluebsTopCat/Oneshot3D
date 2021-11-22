@@ -5,6 +5,7 @@
     <e p="C:\Users\badid\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Oneshot3DMaster.124600687.00" t="ExcludeRecursive" />
     <e p="C:\Users\badid\Oneshot3DMaster" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AmplifyShaderEditor" t="Include">
@@ -771,14 +772,13 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
-        <e p="Fog.shader" t="Include" />
+        <e p="MainMenu.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="Bulb.shader" t="Include" />
           <e p="CoolShadinig.shader" t="Include" />
           <e p="Eyes.shader" t="Include" />
         </e>
-        <e p="Mirror.shader" t="Include" />
-        <e p="MirrorReflection.cs" t="Include" />
+        <e p="ScreenResolutions.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Alignmentscript.cs" t="Include" />
           <e p="CameraTransferScript.cs" t="Include" />
@@ -786,36 +786,55 @@
           <e p="CinemachineTargetPlayer.cs" t="Include" />
           <e p="Computer.cs" t="Include" />
           <e p="CraftingSystem.cs" t="Include" />
+          <e p="CutsceneGate.cs" t="Include" />
           <e p="CutScenePlayer.cs" t="Include" />
           <e p="DoorAnim.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="Sceditor.cs" t="Include" />
+          </e>
           <e p="HaveEquippedItem.cs" t="Include" />
           <e p="Inputthing.cs" t="Include" />
           <e p="InventoryManager.cs" t="Include" />
           <e p="ItemScript.cs" t="Include" />
           <e p="Libs" t="Include">
+            <e p="CharacterLib.cs" t="Include" />
             <e p="DestroyItem.cs" t="Include" />
+            <e p="DialogueCharacter.cs" t="Include" />
             <e p="GiveItem.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="ItemLib.cs" t="Include" />
           </e>
+          <e p="Menu.cs" t="Include" />
+          <e p="MirrorReflection.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="Nativewinalert.cs" t="Include" />
           <e p="PlayerIniter.cs" t="Include" />
           <e p="PreventRespawn.cs" t="Include" />
+          <e p="Quit.cs" t="Include" />
           <e p="SaveDialogue.cs" t="Include" />
           <e p="SceneSwitcher.cs" t="Include" />
           <e p="Settings.cs" t="Include" />
           <e p="threedbutton.cs" t="Include" />
           <e p="UIInventory.cs" t="Include" />
+          <e p="VariableEnabler.cs" t="Include" />
           <e p="Yarnspinner" t="Include">
             <e p="EnableObject.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
             <e p="Playsound.cs" t="Include" />
             <e p="SetVar.cs" t="Include" />
             <e p="TakeItem.cs" t="Include" />
+            <e p="TriggerNPC.cs" t="Include" />
           </e>
           <e p="ZoneMaster.cs" t="Include" />
         </e>
-        <e p="Sin.shader" t="Include" />
+        <e p="Shaders" t="Include">
+          <e p="Fog.shader" t="Include" />
+          <e p="Mirror.shader" t="Include" />
+          <e p="Monitor.shader" t="Include" />
+          <e p="New Amplify Shader.shader" t="Include" />
+          <e p="Sin.shader" t="Include" />
+          <e p="Wireframe.shader" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
@@ -847,7 +866,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="VariableEnabler.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Oneshot3DMaster.sln" t="IncludeFlat" />
