@@ -21,292 +21,432 @@
   <component name="ChangeListManager">
     <list default="true" id="da966d2e-d4e2-436f-93f0-b0d17caabe39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Oneshot3DMaster/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/ChangeLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/ChangeLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/RemapSliders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/RemapSliders.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/RemapSlidersFull.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/RemapSlidersFull.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Graphs/ParentGraph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Graphs/ParentGraph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderEditorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderFunction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderFunction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/Clipboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/Clipboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/ConsoleLogWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/ConsoleLogWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/DebugConsoleWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/DebugConsoleWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/DragAndDropTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/DragAndDropTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/GraphContextMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/GraphContextMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/NodeParametersWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/NodeParametersWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/SceneSaveCallback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Menu/SceneSaveCallback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/GlobalArrayNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/GlobalArrayNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/GradientNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/GradientNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix3X3Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix3X3Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix4X4Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix4X4Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/MatrixParentNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/MatrixParentNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/RangedFloatNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/RangedFloatNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/CameraWorldClipPlanes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/CameraWorldClipPlanes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/IndirectDiffuseLighting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/IndirectDiffuseLighting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightAttenuation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightAttenuation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightColorNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightColorNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/WorldSpaceLightPos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/WorldSpaceLightPos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformDirectionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformDirectionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformPositionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformPositionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/FaceVariableNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/FaceVariableNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/InstanceIdNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/InstanceIdNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/LODFadeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/LODFadeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/SwitchByFaceNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/SwitchByFaceNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/TextureArrayNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/TextureArrayNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DitheringNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DitheringNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOcclusionMappingNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOcclusionMappingNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/TriplanarNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/TriplanarNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/RGBToHSVNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/RGBToHSVNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/VoronoiNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/VoronoiNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/ConditionalIfNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/ConditionalIfNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/BillboardOpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/BillboardOpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/CustomTagsHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/CustomTagsHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/OutlineOpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/OutlineOpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/RenderingPlatformsOpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/RenderingPlatformsOpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/StandardSurface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/StandardSurface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/TessellationOpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/TessellationOpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/ZBufferOpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/ZBufferOpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/BreakToComponentsNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/BreakToComponentsNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/CustomExpressionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/CustomExpressionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/GetLocalVarNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/GetLocalVarNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/LinearDepthNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/LinearDepthNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/PosFromTransformMatrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/PosFromTransformMatrix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RegisterLocalVarNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RegisterLocalVarNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RelayNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RelayNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/ToggleSwitchNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/ToggleSwitchNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ACosOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ACosOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ASinOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ASinOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATan2OpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATan2OpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATanOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATanOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CosOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CosOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CoshOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CoshOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DegreesOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DegreesOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/GradientSampleNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/GradientSampleNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/NormalizeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/NormalizeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/PowerNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/PowerNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RadiansOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RadiansOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinhOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinhOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TFHCRemapNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TFHCRemapNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanhOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanhOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TransformVectorOpNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TransformVectorOpNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ParentNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ParentNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/HDEmissionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/HD/HDEmissionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/MaterialQualityNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SRP/MaterialQualityNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ScreenColorNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ScreenColorNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldNormalVector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldNormalVector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldReflectionVector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldReflectionVector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/HeightMapBlendNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/HeightMapBlendNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SamplerNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SamplerNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SamplerStateNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SamplerStateNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SubstanceSamplerNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SubstanceSamplerNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureCoordinatesNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureCoordinatesNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TexturePropertyNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TexturePropertyNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureTransformNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureTransformNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/UnpackScaleNormalNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/UnpackScaleNormalNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/BillboardNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/BillboardNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/OutlineNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/OutlineNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TexCoordVertexDataNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TexCoordVertexDataNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexToFragmentNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexToFragmentNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateColorMaskModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateColorMaskModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCullModeModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCullModeModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDepthModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDepthModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateFragmentDataNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateFragmentDataNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateInterpData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateInterpData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarsNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarsNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleParent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleParent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModulesData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModulesData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassSwitchNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassSwitchNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateNodeParent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateNodeParent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsDefinesContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsDefinesContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsPort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsPort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUIHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateOptionsUIHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderPropertyNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderPropertyNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateSubShader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateSubShader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateTagsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateTagsModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateVertexDataNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateVertexDataNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesBlendModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesBlendModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesStencilBufferModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesStencilBufferModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEPackageManagerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEPackageManagerHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEStartScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/ASEStartScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomMaterialInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/CustomMaterialInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/GeneratorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/GeneratorUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/IOUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/IOUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/NodeExporterUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/NodeExporterUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/Preferences.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/Preferences.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/UIUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/UIUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/WindowHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Utils/WindowHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Version/VersionInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Version/VersionInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/InputPort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/InputPort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/OutputPort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/OutputPort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/WirePort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/Editor/Wires/WirePort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Previews/LinearPreviews.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Previews/LinearPreviews.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Bidirectional Parallax Mapping.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Bidirectional Parallax Mapping.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/FetchLightmapValue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/FetchLightmapValue.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Flow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Flow.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Four Splats First Pass Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Four Splats First Pass Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Non Stereo Screen Pos.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Non Stereo Screen Pos.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Procedural Sample.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Procedural Sample.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Reconstruct World Position From Depth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Reconstruct World Position From Depth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/SRP Additional Light.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/SRP Additional Light.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/MultiPassUnlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Legacy/MultiPassUnlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/2DLit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/2DLit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/2DUnlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/2DUnlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/PBR.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/PBR.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/Unlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/Unlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunction.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunction.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/Credits/Credit Blurb.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Credits/Credit Blurb.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animators/Niko.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Niko.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/New folder/deselect.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX/New folder/deselect.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Dialogue/LivingRoom.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/LivingRoom.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/OpRoom.yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/OpRoom.yarn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/_est.yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/_est.yarn.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DialogueVars.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueVars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fog.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fog.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gizmos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/Cam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/Cam.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bulb.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bulb.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Camera.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Camera.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carpet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carpet.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoolShadinig.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CoolShadinig.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Door.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Door.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FilamentOn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FilamentOn.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Fog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Fog.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/KitchenItems.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/KitchenItems.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightBulb 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBulb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightBulb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_omputer.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/walls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MirrorReflection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MirrorReflection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bathroom Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bathroom Mirror.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bubl.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bubl.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Bubl.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Bubl.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_esting.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_esting.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/_esting.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_esting.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/doors.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/doors.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/doors.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/doors.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/_loor.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_loor.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/_loor.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/_loor.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/nikothing.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/nikothing.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EventMaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EventMaster.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/BulbRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/BulbRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-10_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-11_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-12_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-13_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-14_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-15_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-16_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-17_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-18_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-19_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-20_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-21_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-22_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-23_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-24_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-25_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-26_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-27_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-28_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-29_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-30_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-31_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-32_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-8_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/Lightmap-9_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/LivingRoom/ReflectionProbe-1.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-100_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-100_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-100_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-100_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-101_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-101_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-101_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-101_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-102_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-102_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-102_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-102_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-103_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-103_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-103_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-103_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-104_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-104_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-104_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-104_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-105_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-105_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-105_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-105_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-106_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-106_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-106_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-106_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-107_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-107_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-107_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-107_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-108_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-108_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-108_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-108_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-109_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-109_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-109_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-109_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-10_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-110_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-110_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-110_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-110_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-111_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-111_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-111_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-111_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-112_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-112_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-112_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-112_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-113_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-113_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-113_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-113_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-114_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-114_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-114_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-114_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-115_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-115_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-115_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-115_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-116_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-116_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-116_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-116_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-117_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-117_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-117_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-117_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-118_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-118_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-118_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-118_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-11_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-12_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-13_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-14_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-15_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-16_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-17_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-18_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-19_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-1_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-20_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-21_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-22_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-23_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-24_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-25_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-26_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-27_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-27_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-27_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-27_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-28_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-28_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-28_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-28_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-29_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-29_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-29_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-29_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-30_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-30_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-30_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-30_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-31_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-31_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-31_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-31_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-32_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-32_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-32_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-32_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-33_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-33_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-33_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-33_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-34_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-34_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-34_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-34_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-35_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-35_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-35_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-35_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-36_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-36_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-36_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-36_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-37_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-37_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-37_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-37_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-38_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-38_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-38_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-38_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-39_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-39_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-39_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-39_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-40_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-40_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-40_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-40_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-41_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-41_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-41_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-41_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-42_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-42_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-42_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-42_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-43_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-43_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-43_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-43_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-44_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-44_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-44_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-44_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-45_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-45_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-45_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-45_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-46_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-46_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-46_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-46_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-47_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-47_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-47_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-47_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-48_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-48_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-48_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-48_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-49_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-49_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-49_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-49_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-50_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-50_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-50_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-50_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-51_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-51_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-51_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-51_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-53_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-53_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-53_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-53_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-54_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-54_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-54_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-54_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-55_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-55_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-55_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-55_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-56_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-56_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-56_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-56_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-57_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-57_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-57_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-57_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-58_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-58_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-58_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-58_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-59_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-59_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-59_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-59_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-60_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-60_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-60_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-60_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-61_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-61_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-61_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-61_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-62_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-62_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-62_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-62_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-63_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-63_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-63_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-63_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-64_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-64_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-64_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-64_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-65_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-65_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-65_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-65_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-67_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-67_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-67_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-67_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-68_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-68_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-68_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-68_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-69_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-69_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-69_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-69_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-6_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-71_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-71_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-71_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-71_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-72_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-72_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-72_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-72_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-73_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-73_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-73_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-73_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-74_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-74_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-74_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-74_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-75_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-75_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-75_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-75_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-76_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-76_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-76_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-76_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-77_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-77_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-77_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-77_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-78_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-78_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-78_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-78_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-79_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-79_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-79_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-79_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-7_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-80_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-80_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-80_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-80_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-81_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-81_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-81_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-81_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-82_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-82_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-82_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-82_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-83_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-83_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-83_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-83_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-84_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-84_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-84_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-84_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-85_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-85_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-85_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-85_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-86_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-86_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-86_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-86_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-87_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-87_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-87_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-87_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-88_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-88_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-88_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-88_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-89_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-89_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-89_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-89_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-8_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-90_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-90_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-90_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-90_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-91_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-91_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-91_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-91_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-92_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-92_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-92_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-92_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-93_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-93_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-93_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-93_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-94_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-94_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-94_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-94_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-95_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-95_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-95_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-95_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-96_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-96_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-96_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-96_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-97_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-97_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-97_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-97_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-98_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-98_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-98_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-98_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-99_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-99_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-99_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-99_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/Oproom/Lightmap-9_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brown/SampleScene/Brown Lighting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brown/SampleScene/Brown Lighting.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneSettings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Void.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Void.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutScenePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutScenePlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Libs/DestroyItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Libs/DestroyItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CutsceneGate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CutsceneGate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/Sceditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/Sceditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputthing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputthing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sin.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sin.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VariableEnabler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VariableEnabler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/threedbutton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/threedbutton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Fog.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Fog.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,13 +463,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Yarnspinner/TriggerNPC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/InMemoryVariableStorage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NewCommandLib.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nativewinalert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/87/9d9e51d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CraftingSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/DFD19702-34D8-46AD-90F4-E80666E8CD49/37/bd310334/0200000Bpdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFC774E3-9F15-4E8B-ACC0-AAE5397B53AE/eb/383559e5/Camera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Sceditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB4ED992-9FE0-4849-BBE2-B059CBA4D31F/ad/bfa02973/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -338,17 +478,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Libs/DialogueCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Inputthing.cs" />
-        <option value="$PROJECT_DIR$/Assets/Alignmentscript.cs" />
-        <option value="$PROJECT_DIR$/Assets/CameraTransferScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/threedbutton.cs" />
         <option value="$PROJECT_DIR$/Assets/Computer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZoneMaster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Iteminmenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIInventory.cs" />
@@ -366,7 +502,6 @@
         <option value="$PROJECT_DIR$/Assets/VariableEnabler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/EnableObject.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA794459-0845-437F-86A9-78879988482B/ed/456affc8/Value.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inputthing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveDialogue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorAnim.cs" />
@@ -377,22 +512,28 @@
         <option value="$PROJECT_DIR$/Assets/Mirror.shader" />
         <option value="$PROJECT_DIR$/Assets/MirrorReflection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/SetVar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutsceneGate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Nativewinalert.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PreventRespawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CutScenePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Libs/DestroyItem.cs" />
         <option value="$PROJECT_DIR$/Assets/ScreenResolutions.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Sceditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/TriggerNPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Libs/DialogueCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@7e42641d65/Runtime/DialogueUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Libs/CharacterLib.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Keybinds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/threedbutton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inputthing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Yarnspinner/NPC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Quit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutsceneGate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerIniter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CutScenePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       </list>
     </option>
   </component>
@@ -539,7 +680,13 @@
       <workItem from="1635039220743" duration="3728000" />
       <workItem from="1636659095553" duration="325000" />
       <workItem from="1637519134476" duration="4839000" />
-      <workItem from="1637553687579" duration="362000" />
+      <workItem from="1637553687579" duration="1305000" />
+      <workItem from="1637613944705" duration="743000" />
+      <workItem from="1637625251079" duration="1526000" />
+      <workItem from="1637627436586" duration="57000" />
+      <workItem from="1637646127838" duration="826000" />
+      <workItem from="1637704516809" duration="480000" />
+      <workItem from="1637706841826" duration="10900000" />
     </task>
     <servers />
   </component>
@@ -568,9 +715,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="165" key="#Inspection_severity/0.0.1920.1040@0.0.1920.1040" timestamp="1635039234020" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637522159547">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637718791136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637522159547" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637718791136" />
   </component>
 </project>

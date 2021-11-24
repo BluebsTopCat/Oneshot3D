@@ -106,7 +106,7 @@ namespace YarnSpinner
                 return;
             }
             
-            PlayerAnim.SetBool("Bulb?", items.Contains(0));
+            PlayerAnim.SetBool("Bulb?",  PlayerPrefs.GetInt("HasBulb") == 1);
             cfl.m_XAxis.m_MaxSpeed = 300.0f;
             cfl.m_YAxis.m_MaxSpeed = 2.0f;
             if (Input.GetMouseButtonDown(0))

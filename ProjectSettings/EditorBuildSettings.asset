@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brown/BulbRoom.unity
     guid: f1ebb186d316b204aac707c1cccad677
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3f04d39537551d7409d3be80d4451d2a
   m_configObjects: {}

@@ -150,6 +150,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				false:RemoveDefine:ASE_FOG 1
 			Option,_FinalColorxAlpha:Final Color x Alpha:true,false:false
 				true:SetDefine:ASE_FINAL_COLOR_ALPHA_MULTIPLY 1
+				false:RemoveDefine:ASE_FINAL_COLOR_ALPHA_MULTIPLY 1
 			Option:Meta Pass:false,true:true
 				true:IncludePass:Meta
 				false,disable:ExcludePass:Meta
@@ -223,6 +224,16 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				Change:SetMaterialProperty:_TessMaxDisp
 				Change:SetShaderProperty:_TessMaxDisp,_TessMaxDisp( "Max Displacement", Float ) = 25
 				Inline,disable:SetShaderProperty:_TessMaxDisp,//_TessMaxDisp( "Max Displacement", Float ) = 25
+			Option:Write Depth:false,true:false
+				true:SetDefine:ASE_DEPTH_WRITE_ON
+				true:ShowOption:  Early Z
+				true:ShowPort:Forward:Depth Value
+				false,disable:RemoveDefine:ASE_DEPTH_WRITE_ON
+				false,disable:HideOption:  Early Z
+				false,disable:HidePort:Forward:Depth Value
+			Option:  Early Z:false,true:false
+				true:SetDefine:ASE_EARLY_Z_DEPTH_OPTIMIZE
+				false,disable:RemoveDefine:ASE_EARLY_Z_DEPTH_OPTIMIZE
 			Option:Vertex Position,InvertActionOnDeselection:Absolute,Relative:Relative
 				Absolute:SetDefine:ASE_ABSOLUTE_VERTEX_POS 1
 				Absolute:SetPortName:Forward:8,Vertex Position
@@ -247,9 +258,15 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 		}
 		Cull Back
 		AlphaToMask Off
+		/*ase_stencil*/
 		HLSLINCLUDE
 		#pragma target 2.0
 
+		#pragma prefer_hlslcc gles
+		#pragma exclude_renderers d3d11_9x
+
+		#ifndef ASE_TESS_FUNCS
+		#define ASE_TESS_FUNCS
 		float4 FixedTess( float tessValue )
 		{
 			return tessValue;
@@ -348,6 +365,8 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			return tess;
 		}
+		#endif //ASE_TESS_FUNCS
+
 		ENDHLSL
 
 		/*ase_pass*/
@@ -365,9 +384,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			/*ase_stencil*/
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -607,17 +624,18 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			/*ase_stencil*/
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma multi_compile _ _SCREEN_SPACE_OCCLUSION
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
-			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
+			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS _ADDITIONAL_OFF
 			#pragma multi_compile _ _ADDITIONAL_LIGHT_SHADOWS
 			#pragma multi_compile _ _SHADOWS_SOFT
 			#pragma multi_compile _ _MIXED_LIGHTING_SUBTRACTIVE
 			
+			#pragma multi_compile _ LIGHTMAP_SHADOW_MIXING
+			#pragma multi_compile _ SHADOWS_SHADOWMASK
+
 			#pragma multi_compile _ DIRLIGHTMAP_COMBINED
 			#pragma multi_compile _ LIGHTMAP_ON
 
@@ -846,7 +864,17 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			#endif
 
-			half4 frag ( VertexOutput IN /*ase_frag_input*/ ) : SV_Target
+			#if defined(ASE_EARLY_Z_DEPTH_OPTIMIZE)
+				#define ASE_SV_DEPTH SV_DepthLessEqual  
+			#else
+				#define ASE_SV_DEPTH SV_Depth
+			#endif
+
+			half4 frag ( VertexOutput IN 
+						#ifdef ASE_DEPTH_WRITE_ON
+						,out float outputDepth : ASE_SV_DEPTH
+						#endif
+						/*ase_frag_input*/ ) : SV_Target
 			{
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(IN);
@@ -882,12 +910,12 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 
 				/*ase_frag_code:IN=VertexOutput*/
 				float3 Albedo = /*ase_frag_out:Albedo;Float3;0;-1;_Albedo*/float3(0.5, 0.5, 0.5)/*end*/;
-				float3 Normal = /*ase_frag_out:Normal;Float3;1*/float3(0, 0, 1)/*end*/;
+				float3 Normal = /*ase_frag_out:Normal;Float3;1;-1;_FragNormal*/float3(0, 0, 1)/*end*/;
 				float3 Emission = /*ase_frag_out:Emission;Float3;2;-1;_Emission*/0/*end*/;
-				float3 Specular = /*ase_frag_out:Specular;Float3;9*/0.5/*end*/;
-				float Metallic = /*ase_frag_out:Metallic;Float;3*/0/*end*/;
-				float Smoothness = /*ase_frag_out:Smoothness;Float;4*/0.5/*end*/;
-				float Occlusion = /*ase_frag_out:Occlusion;Float;5*/1/*end*/;
+				float3 Specular = /*ase_frag_out:Specular;Float3;9;-1;_Specular*/0.5/*end*/;
+				float Metallic = /*ase_frag_out:Metallic;Float;3;-1;_Metallic*/0/*end*/;
+				float Smoothness = /*ase_frag_out:Smoothness;Float;4;-1;_Smoothness*/0.5/*end*/;
+				float Occlusion = /*ase_frag_out:Occlusion;Float;5;-1;_Occlusion*/1/*end*/;
 				float Alpha = /*ase_frag_out:Alpha;Float;6;-1;_Alpha*/1/*end*/;
 				float AlphaClipThreshold = /*ase_frag_out:Alpha Clip Threshold;Float;7;-1;_AlphaClip*/0.5/*end*/;
 				float AlphaClipThresholdShadow = /*ase_frag_out:Alpha Clip Threshold Shadow;Float;16;-1;_AlphaClipShadow*/0.5/*end*/;
@@ -896,6 +924,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				float RefractionIndex = /*ase_frag_out:Refraction Index;Float;13;-1;_RefractionIndex*/1/*end*/;
 				float3 Transmission = /*ase_frag_out:Transmission;Float3;14;-1;_Transmission*/1/*end*/;
 				float3 Translucency = /*ase_frag_out:Translucency;Float3;15;-1;_Translucency*/1/*end*/;
+				#ifdef ASE_DEPTH_WRITE_ON
+				float DepthValue = /*ase_frag_out:Depth Value;Float;17;-1;_DepthValue*/0/*end*/;
+				#endif
 
 				#ifdef _ALPHATEST_ON
 					clip(Alpha - AlphaClipThreshold);
@@ -1010,9 +1041,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 
 				#ifdef _REFRACTION_ASE
 					float4 projScreenPos = ScreenPos / ScreenPos.w;
-					float3 refractionOffset = ( RefractionIndex - 1.0 ) * mul( UNITY_MATRIX_V, WorldNormal ).xyz * ( 1.0 - dot( WorldNormal, WorldViewDirection ) );
+					float3 refractionOffset = ( RefractionIndex - 1.0 ) * mul( UNITY_MATRIX_V, float4( WorldNormal,0 ) ).xyz * ( 1.0 - dot( WorldNormal, WorldViewDirection ) );
 					projScreenPos.xy += refractionOffset.xy;
-					float3 refraction = SHADERGRAPH_SAMPLE_SCENE_COLOR( projScreenPos ) * RefractionColor;
+					float3 refraction = SHADERGRAPH_SAMPLE_SCENE_COLOR( projScreenPos.xy ) * RefractionColor;
 					color.rgb = lerp( refraction, color.rgb, color.a );
 					color.a = 1;
 				#endif
@@ -1028,7 +1059,11 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 						color.rgb = MixFog(color.rgb, IN.fogFactorAndVertexLight.x);
 					#endif
 				#endif
-				
+
+				#ifdef ASE_DEPTH_WRITE_ON
+					outputDepth = DepthValue;
+				#endif
+
 				return color;
 			}
 
@@ -1045,14 +1080,15 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			ZWrite On
 			ZTest LEqual
 			AlphaToMask Off
+			ColorMask 0
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
-
+#if ASE_SRP_VERSION >= 110000
+			#pragma multi_compile _ _CASTING_PUNCTUAL_LIGHT_SHADOW
+#endif
 			#define SHADERPASS_SHADOWCASTER
 
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
@@ -1110,7 +1146,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			/*ase_funcs*/
 
 			float3 _LightDirection;
-
+#if ASE_SRP_VERSION >= 110000 
+			float3 _LightPosition;
+#endif
 			VertexOutput VertexFunction( VertexInput v/*ase_vert_input*/ )
 			{
 				VertexOutput o;
@@ -1139,13 +1177,27 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				#endif
 				float3 normalWS = TransformObjectToWorldDir(v.ase_normal);
 
-				float4 clipPos = TransformWorldToHClip( ApplyShadowBias( positionWS, normalWS, _LightDirection ) );
+		#if ASE_SRP_VERSION >= 110000 
+			#if _CASTING_PUNCTUAL_LIGHT_SHADOW
+				float3 lightDirectionWS = normalize(_LightPosition - positionWS);
+			#else
+				float3 lightDirectionWS = _LightDirection;
+			#endif
+				float4 clipPos = TransformWorldToHClip(ApplyShadowBias(positionWS, normalWS, lightDirectionWS));
+			#if UNITY_REVERSED_Z
+				clipPos.z = min(clipPos.z, UNITY_NEAR_CLIP_VALUE);
+			#else
+				clipPos.z = max(clipPos.z, UNITY_NEAR_CLIP_VALUE);
+			#endif
+		#else
+				float4 clipPos = TransformWorldToHClip(ApplyShadowBias(positionWS, normalWS, _LightDirection));
+			#if UNITY_REVERSED_Z
+				clipPos.z = min(clipPos.z, clipPos.w * UNITY_NEAR_CLIP_VALUE);
+			#else
+				clipPos.z = max(clipPos.z, clipPos.w * UNITY_NEAR_CLIP_VALUE);
+			#endif
+		#endif
 
-				#if UNITY_REVERSED_Z
-					clipPos.z = min(clipPos.z, clipPos.w * UNITY_NEAR_CLIP_VALUE);
-				#else
-					clipPos.z = max(clipPos.z, clipPos.w * UNITY_NEAR_CLIP_VALUE);
-				#endif
 				#if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR) && defined(ASE_NEEDS_FRAG_SHADOWCOORDS)
 					VertexPositionInputs vertexInput = (VertexPositionInputs)0;
 					vertexInput.positionWS = positionWS;
@@ -1235,7 +1287,17 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			#endif
 
-			half4 frag(VertexOutput IN /*ase_frag_input*/ ) : SV_TARGET
+			#if defined(ASE_EARLY_Z_DEPTH_OPTIMIZE)
+				#define ASE_SV_DEPTH SV_DepthLessEqual  
+			#else
+				#define ASE_SV_DEPTH SV_Depth
+			#endif
+
+			half4 frag(	VertexOutput IN 
+						#ifdef ASE_DEPTH_WRITE_ON
+						,out float outputDepth : ASE_SV_DEPTH
+						#endif
+						/*ase_frag_input*/ ) : SV_TARGET
 			{
 				UNITY_SETUP_INSTANCE_ID( IN );
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX( IN );
@@ -1257,6 +1319,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				float Alpha = /*ase_frag_out:Alpha;Float;0;-1;_Alpha*/1/*end*/;
 				float AlphaClipThreshold = /*ase_frag_out:Alpha Clip Threshold;Float;1;-1;_AlphaClip*/0.5/*end*/;
 				float AlphaClipThresholdShadow = /*ase_frag_out:Alpha Clip Threshold Shadow;Float;4;-1;_AlphaClipShadow*/0.5/*end*/;
+				#ifdef ASE_DEPTH_WRITE_ON
+				float DepthValue = /*ase_frag_out:Depth Value;Float;5;-1;_DepthValue*/0/*end*/;
+				#endif
 
 				#ifdef _ALPHATEST_ON
 					#ifdef _ALPHATEST_SHADOW_ON
@@ -1268,6 +1333,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 
 				#ifdef LOD_FADE_CROSSFADE
 					LODDitheringTransition( IN.clipPos.xyz, unity_LODFade.x );
+				#endif
+				#ifdef ASE_DEPTH_WRITE_ON
+					outputDepth = DepthValue;
 				#endif
 				return 0;
 			}
@@ -1287,9 +1355,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			AlphaToMask Off
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1466,7 +1532,16 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			#endif
 
-			half4 frag(VertexOutput IN /*ase_frag_input*/ ) : SV_TARGET
+			#if defined(ASE_EARLY_Z_DEPTH_OPTIMIZE)
+				#define ASE_SV_DEPTH SV_DepthLessEqual  
+			#else
+				#define ASE_SV_DEPTH SV_Depth
+			#endif
+			half4 frag(	VertexOutput IN 
+						#ifdef ASE_DEPTH_WRITE_ON
+						,out float outputDepth : ASE_SV_DEPTH
+						#endif
+						/*ase_frag_input*/ ) : SV_TARGET
 			{
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX( IN );
@@ -1487,6 +1562,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				/*ase_frag_code:IN=VertexOutput*/
 				float Alpha = /*ase_frag_out:Alpha;Float;0;-1;_Alpha*/1/*end*/;
 				float AlphaClipThreshold = /*ase_frag_out:Alpha Clip Threshold;Float;1;-1;_AlphaClip*/0.5/*end*/;
+				#ifdef ASE_DEPTH_WRITE_ON
+				float DepthValue = /*ase_frag_out:Depth Value;Float;4;-1;_DepthValue*/0/*end*/;
+				#endif
 
 				#ifdef _ALPHATEST_ON
 					clip(Alpha - AlphaClipThreshold);
@@ -1495,6 +1573,10 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				#ifdef LOD_FADE_CROSSFADE
 					LODDitheringTransition( IN.clipPos.xyz, unity_LODFade.x );
 				#endif
+				#ifdef ASE_DEPTH_WRITE_ON
+				outputDepth = DepthValue;
+				#endif
+
 				return 0;
 			}
 			ENDHLSL
@@ -1510,9 +1592,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			Cull Off
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1751,10 +1831,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			ColorMask RGBA
 
 			HLSLPROGRAM
-			#pragma enable_d3d11_debug_symbols
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -1985,9 +2062,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
             ZWrite On
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma vertex vert
 			#pragma fragment frag
 
@@ -2168,7 +2243,16 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			#endif
 
-			half4 frag(VertexOutput IN /*ase_frag_input*/ ) : SV_TARGET
+			#if defined(ASE_EARLY_Z_DEPTH_OPTIMIZE)
+				#define ASE_SV_DEPTH SV_DepthLessEqual  
+			#else
+				#define ASE_SV_DEPTH SV_Depth
+			#endif
+			half4 frag(	VertexOutput IN 
+						#ifdef ASE_DEPTH_WRITE_ON
+						,out float outputDepth : ASE_SV_DEPTH
+						#endif
+						/*ase_frag_input*/ ) : SV_TARGET
 			{
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX( IN );
@@ -2189,6 +2273,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				/*ase_frag_code:IN=VertexOutput*/
 				float Alpha = /*ase_frag_out:Alpha;Float;0;-1;_Alpha*/1/*end*/;
 				float AlphaClipThreshold = /*ase_frag_out:Alpha Clip Threshold;Float;1;-1;_AlphaClip*/0.5/*end*/;
+				#ifdef ASE_DEPTH_WRITE_ON
+				float DepthValue = /*ase_frag_out:Depth Value;Float;4;-1;_DepthValue*/0/*end*/;
+				#endif
 
 				#ifdef _ALPHATEST_ON
 					clip(Alpha - AlphaClipThreshold);
@@ -2196,6 +2283,10 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 
 				#ifdef LOD_FADE_CROSSFADE
 					LODDitheringTransition( IN.clipPos.xyz, unity_LODFade.x );
+				#endif
+				
+				#ifdef ASE_DEPTH_WRITE_ON
+				outputDepth = DepthValue;
 				#endif
 				
 				return float4(PackNormalOctRectEncode(TransformWorldToViewDir(IN.worldNormal, true)), 0.0, 0.0);
@@ -2218,9 +2309,7 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			/*ase_stencil*/
 
 			HLSLPROGRAM
-			#pragma prefer_hlslcc gles
-			#pragma exclude_renderers d3d11_9x
-
+			
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
 			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
@@ -2458,7 +2547,16 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 			}
 			#endif
 
-			FragmentOutput frag ( VertexOutput IN /*ase_frag_input*/ )
+			#if defined(ASE_EARLY_Z_DEPTH_OPTIMIZE)
+				#define ASE_SV_DEPTH SV_DepthLessEqual  
+			#else
+				#define ASE_SV_DEPTH SV_Depth
+			#endif
+			FragmentOutput frag ( VertexOutput IN 
+								#ifdef ASE_DEPTH_WRITE_ON
+								,out float outputDepth : ASE_SV_DEPTH
+								#endif
+								/*ase_frag_input*/ )
 			{
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(IN);
@@ -2494,12 +2592,12 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 
 				/*ase_frag_code:IN=VertexOutput*/
 				float3 Albedo = /*ase_frag_out:Albedo;Float3;0;-1;_Albedo*/float3(0.5, 0.5, 0.5)/*end*/;
-				float3 Normal = /*ase_frag_out:Normal;Float3;1*/float3(0, 0, 1)/*end*/;
+				float3 Normal = /*ase_frag_out:Normal;Float3;1;-1;_FragNormal*/float3(0, 0, 1)/*end*/;
 				float3 Emission = /*ase_frag_out:Emission;Float3;2;-1;_Emission*/0/*end*/;
-				float3 Specular = /*ase_frag_out:Specular;Float3;9*/0.5/*end*/;
-				float Metallic = /*ase_frag_out:Metallic;Float;3*/0/*end*/;
-				float Smoothness = /*ase_frag_out:Smoothness;Float;4*/0.5/*end*/;
-				float Occlusion = /*ase_frag_out:Occlusion;Float;5*/1/*end*/;
+				float3 Specular = /*ase_frag_out:Specular;Float3;9;-1;_Specular*/0.5/*end*/;
+				float Metallic = /*ase_frag_out:Metallic;Float;3;-1;_Metallic*/0/*end*/;
+				float Smoothness = /*ase_frag_out:Smoothness;Float;4;-1;_Smoothness*/0.5/*end*/;
+				float Occlusion = /*ase_frag_out:Occlusion;Float;5;-1;_Occlusion*/1/*end*/;
 				float Alpha = /*ase_frag_out:Alpha;Float;6;-1;_Alpha*/1/*end*/;
 				float AlphaClipThreshold = /*ase_frag_out:Alpha Clip Threshold;Float;7;-1;_AlphaClip*/0.5/*end*/;
 				float AlphaClipThresholdShadow = /*ase_frag_out:Alpha Clip Threshold Shadow;Float;16;-1;_AlphaClipShadow*/0.5/*end*/;
@@ -2508,6 +2606,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				float RefractionIndex = /*ase_frag_out:Refraction Index;Float;13;-1;_RefractionIndex*/1/*end*/;
 				float3 Transmission = /*ase_frag_out:Transmission;Float3;14;-1;_Transmission*/1/*end*/;
 				float3 Translucency = /*ase_frag_out:Translucency;Float3;15;-1;_Translucency*/1/*end*/;
+				#ifdef ASE_DEPTH_WRITE_ON
+				float DepthValue = /*ase_frag_out:Depth Value;Float;17;-1;_DepthValue*/0/*end*/;
+				#endif
 
 				#ifdef _ALPHATEST_ON
 					clip(Alpha - AlphaClipThreshold);
@@ -2615,9 +2716,9 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 				
 				#ifdef _REFRACTION_ASE
 					float4 projScreenPos = ScreenPos / ScreenPos.w;
-					float3 refractionOffset = ( RefractionIndex - 1.0 ) * mul( UNITY_MATRIX_V, WorldNormal ).xyz * ( 1.0 - dot( WorldNormal, WorldViewDirection ) );
+					float3 refractionOffset = ( RefractionIndex - 1.0 ) * mul( UNITY_MATRIX_V, float4( WorldNormal, 0 ) ).xyz * ( 1.0 - dot( WorldNormal, WorldViewDirection ) );
 					projScreenPos.xy += refractionOffset.xy;
-					float3 refraction = SHADERGRAPH_SAMPLE_SCENE_COLOR( projScreenPos ) * RefractionColor;
+					float3 refraction = SHADERGRAPH_SAMPLE_SCENE_COLOR( projScreenPos.xy ) * RefractionColor;
 					color.rgb = lerp( refraction, color.rgb, color.a );
 					color.a = 1;
 				#endif
@@ -2632,6 +2733,10 @@ Shader /*ase_name*/ "Hidden/Universal/PBR" /*end*/
 					#else
 						color.rgb = MixFog(color.rgb, IN.fogFactorAndVertexLight.x);
 					#endif
+				#endif
+				
+				#ifdef ASE_DEPTH_WRITE_ON
+					outputDepth = DepthValue;
 				#endif
 				
 				return BRDFDataToGbuffer(brdfData, inputData, Smoothness, Emission + color.rgb);

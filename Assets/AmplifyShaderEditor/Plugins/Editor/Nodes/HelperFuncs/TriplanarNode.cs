@@ -1056,6 +1056,9 @@ namespace AmplifyShaderEditor
 
 		public override string GenerateShaderForOutput( int outputId, ref MasterNodeDataCollector dataCollector, bool ignoreLocalvar )
 		{
+			if( m_outputPorts[ 0 ].IsLocalValue( dataCollector.PortCategory ) )
+				return GetOutputColorItem( 0, outputId, m_outputPorts[ 0 ].LocalValue( dataCollector.PortCategory ) );
+
 			ParentGraph outsideGraph = UIUtils.CurrentWindow.OutsideGraph;
 
 			dataCollector.AddPropertyNode( m_topTexture );
@@ -1092,7 +1095,7 @@ namespace AmplifyShaderEditor
 #else
 				if( ( outsideGraph.SamplingMacros || m_topTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) && !outsideGraph.IsStandardSurface )
 #endif
-					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop );
+					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop , VariableMode.Create );
 			}
 			else
 			{
@@ -1119,18 +1122,18 @@ namespace AmplifyShaderEditor
 				}
 #if UNITY_2018_1_OR_NEWER
 				if( ( outsideGraph.SamplingMacros || m_topTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) )
-					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop );
+					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop , VariableMode.Create );
 				if( ( outsideGraph.SamplingMacros || m_midTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) )
-					ssMid = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texMid );
+					ssMid = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texMid , VariableMode.Create );
 				if( ( outsideGraph.SamplingMacros || m_botTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) )
-					ssBot = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texBot );
+					ssBot = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texBot , VariableMode.Create );
 #else
 				if( ( outsideGraph.SamplingMacros || m_topTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) && !outsideGraph.IsStandardSurface )
-					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop );
+					ssTop = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texTop , VariableMode.Create);
 				if( ( outsideGraph.SamplingMacros || m_midTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) && !outsideGraph.IsStandardSurface )
-					ssMid = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texMid );
+					ssMid = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texMid , VariableMode.Create);
 				if( ( outsideGraph.SamplingMacros || m_botTexPort.DataType == WirePortDataType.SAMPLER2DARRAY ) && !outsideGraph.IsStandardSurface )
-					ssBot = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texBot );
+					ssBot = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, texBot , VariableMode.Create);
 #endif
 			}
 
@@ -1346,15 +1349,23 @@ namespace AmplifyShaderEditor
 				call = dataCollector.AddFunctions( callHeader, samplingTriplanar, texTop + ssTop, pos, norm, falloff, tiling, normalScale, topIndex );
 			else
 				call = dataCollector.AddFunctions( callHeader, samplingTriplanar, texTop + ssTop, texMid + ssMid, texBot + ssBot, pos, norm, falloff, tiling, normalScale, "float3(" + topIndex + "," + midIndex + "," + botIndex + ")" );
-			dataCollector.AddToLocalVariables( dataCollector.PortCategory, UniqueId, type + " triplanar" + OutputId + " = " + call + ";" );
+			string triplanarVarName = "triplanar" + OutputId;
+
+			dataCollector.AddToLocalVariables( dataCollector.PortCategory, UniqueId, type + " "+ triplanarVarName + " = " + call + ";" );
 			if( m_normalCorrection && m_normalSpace == ViewSpace.Tangent )
 			{
-				dataCollector.AddToLocalVariables( dataCollector.PortCategory, UniqueId, "float3 tanTriplanarNormal" + OutputId + " = mul( " + worldToTangent + ", triplanar" + OutputId + " );" );
-				return GetOutputVectorItem( 0, outputId, "tanTriplanarNormal" + OutputId );
+				string tanTriplanarVarName = "tanTriplanarNormal" + OutputId;
+
+				dataCollector.AddToLocalVariables( dataCollector.PortCategory, UniqueId, "float3 " + tanTriplanarVarName + " = mul( " + worldToTangent + ", "+ triplanarVarName + " );" );
+
+				m_outputPorts[ 0 ].SetLocalValue( tanTriplanarVarName, dataCollector.PortCategory );
+
+				return GetOutputVectorItem( 0, outputId, tanTriplanarVarName );
 			}
 			else
 			{
-				return GetOutputVectorItem( 0, outputId, "triplanar" + OutputId );
+				m_outputPorts[ 0 ].SetLocalValue( triplanarVarName , dataCollector.PortCategory );
+				return GetOutputVectorItem( 0, outputId, triplanarVarName );
 			}
 		}
 

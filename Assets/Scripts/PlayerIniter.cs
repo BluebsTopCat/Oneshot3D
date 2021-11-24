@@ -10,6 +10,16 @@ public class PlayerIniter : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        if (FindObjectsOfType<Music>().Length > 1)
+        {
+            int i = 0;
+            foreach (Music m in FindObjectsOfType<Music>())
+            {
+                if(i != 0)
+                    Destroy(m);
+                i++;
+            }
+        }
         int firsttime = PlayerPrefs.GetInt("FirstTime");
         if (firsttime != 0)
         {
@@ -28,5 +38,6 @@ public class PlayerIniter : MonoBehaviour
             PlayerPrefs.SetInt("FirstTime", 1);
             SceneManager.LoadScene(1);
         }
+        
     }
 }

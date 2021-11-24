@@ -3,6 +3,7 @@
 public class threedbutton : MonoBehaviour
 {
     public Computer c;
+    public AudioSource asp;
 
     private void Update()
     {
@@ -15,7 +16,10 @@ public class threedbutton : MonoBehaviour
             {
                 Debug.Log("hit!");
                 if (hit.transform.gameObject == gameObject)
+                {
                     c.textline++;
+                    asp.Play();
+                }
             }
         }
     }

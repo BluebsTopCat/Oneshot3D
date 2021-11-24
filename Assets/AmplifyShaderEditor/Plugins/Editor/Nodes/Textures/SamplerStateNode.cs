@@ -53,7 +53,7 @@ namespace AmplifyShaderEditor
 			"Clamp", 
 #if UNITY_2018_3_OR_NEWER
 			"Mirror",
-			"Mirror One",
+			"Mirror Once",
 			"Per-axis" 
 #endif
 		};
@@ -197,15 +197,18 @@ namespace AmplifyShaderEditor
 #endif
 		}
 
-		public override void Draw( DrawInfo drawInfo )
+		public override void OnNodeLogicUpdate( DrawInfo drawInfo )
 		{
-			base.Draw( drawInfo );
-
+			base.OnNodeLogicUpdate( drawInfo );
 			if( !UIUtils.CurrentWindow.OutsideGraph.SamplingMacros && ContainerGraph.CurrentShaderFunction == null )
 				m_showErrorMessage = true;
 			else
 				m_showErrorMessage = false;
+		}
 
+		public override void Draw( DrawInfo drawInfo )
+		{
+			base.Draw( drawInfo );
 			EditorGUI.BeginChangeCheck();
 			{
 				List<string> arr = new List<string>( UIUtils.TexturePropertyNodeArr() );
@@ -339,7 +342,7 @@ namespace AmplifyShaderEditor
 					propertyOrOptions = GenerateSamplerAttributes();
 				}
 
-				string sampler = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, propertyOrOptions );
+				string sampler = GeneratorUtils.GenerateSamplerState( ref dataCollector, UniqueId, propertyOrOptions , VariableMode.Create );
 
 				m_outputPorts[ 0 ].SetLocalValue( sampler, dataCollector.PortCategory );
 			}

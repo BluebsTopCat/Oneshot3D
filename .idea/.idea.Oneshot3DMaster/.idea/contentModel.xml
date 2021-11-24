@@ -5,7 +5,6 @@
     <e p="C:\Users\badid\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Oneshot3DMaster.124600687.00" t="ExcludeRecursive" />
     <e p="C:\Users\badid\Oneshot3DMaster" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AmplifyShaderEditor" t="Include">
@@ -389,6 +388,9 @@
                     <e p="HDEmissionNode.cs" t="Include" />
                   </e>
                   <e p="MaterialQualityNode.cs" t="Include" />
+                  <e p="URP" t="Include">
+                    <e p="ReflectionProbeNode.cs" t="Include" />
+                  </e>
                 </e>
                 <e p="StickyNoteNode .cs" t="Include" />
                 <e p="SurfaceShaderInputs" t="Include">
@@ -428,6 +430,8 @@
                 <e p="Vertex" t="Include">
                   <e p="BillboardNode.cs" t="Include" />
                   <e p="BitangentVertexDataNode.cs" t="Include" />
+                  <e p="BlendIndicesNode.cs" t="Include" />
+                  <e p="BlendWeightsNode.cs" t="Include" />
                   <e p="ColorVertexDataNode.cs" t="Include" />
                   <e p="NormalVertexDataNode.cs" t="Include" />
                   <e p="ObjectScaleNode.cs" t="Include" />
@@ -464,6 +468,7 @@
                 <e p="TemplateData.cs" t="Include" />
                 <e p="TemplateDataCollector.cs" t="Include" />
                 <e p="TemplateDataParent.cs" t="Include" />
+                <e p="TemplateDBItem.cs" t="Include" />
                 <e p="TemplateDepthModule.cs" t="Include" />
                 <e p="TemplateFragmentDataNode.cs" t="Include" />
                 <e p="TemplateHelperFunctions.cs" t="Include" />
@@ -488,6 +493,7 @@
                 <e p="TemplatePass.cs" t="Include" />
                 <e p="TemplatePassSelectorHelper.cs" t="Include" />
                 <e p="TemplatePostProcessor.cs" t="Include" />
+                <e p="TemplateRenderPlatformHelper.cs" t="Include" />
                 <e p="TemplatesBlendModule.cs" t="Include" />
                 <e p="TemplateShaderData.cs" t="Include" />
                 <e p="TemplateShaderModelModule.cs" t="Include" />
@@ -503,6 +509,8 @@
               <e p="Utils" t="Include">
                 <e p="ASEPackageManagerHelper.cs" t="Include" />
                 <e p="ASEPPSHelperTool.cs" t="Include" />
+                <e p="ASESaveBundleAsset.cs" t="Include" />
+                <e p="ASESaveBundleTool.cs" t="Include" />
                 <e p="ASEStartScreen.cs" t="Include" />
                 <e p="ASETextureArrayCreator.cs" t="Include" />
                 <e p="CustomMaterialInspector.cs" t="Include" />
@@ -772,6 +780,7 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
+        <e p="DialogueVars.json" t="Include" />
         <e p="MainMenu.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="Bulb.shader" t="Include" />
@@ -789,13 +798,11 @@
           <e p="CutsceneGate.cs" t="Include" />
           <e p="CutScenePlayer.cs" t="Include" />
           <e p="DoorAnim.cs" t="Include" />
-          <e p="Editor" t="Include">
-            <e p="Sceditor.cs" t="Include" />
-          </e>
           <e p="HaveEquippedItem.cs" t="Include" />
           <e p="Inputthing.cs" t="Include" />
           <e p="InventoryManager.cs" t="Include" />
           <e p="ItemScript.cs" t="Include" />
+          <e p="Keybinds.cs" t="Include" />
           <e p="Libs" t="Include">
             <e p="CharacterLib.cs" t="Include" />
             <e p="DestroyItem.cs" t="Include" />
@@ -807,6 +814,7 @@
           <e p="Menu.cs" t="Include" />
           <e p="MirrorReflection.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="Music.cs" t="Include" />
           <e p="Nativewinalert.cs" t="Include" />
           <e p="PlayerIniter.cs" t="Include" />
           <e p="PreventRespawn.cs" t="Include" />
@@ -819,6 +827,7 @@
           <e p="VariableEnabler.cs" t="Include" />
           <e p="Yarnspinner" t="Include">
             <e p="EnableObject.cs" t="Include" />
+            <e p="NewCommandLib.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
             <e p="Playsound.cs" t="Include" />
             <e p="SetVar.cs" t="Include" />
@@ -829,6 +838,7 @@
         </e>
         <e p="Shaders" t="Include">
           <e p="Fog.shader" t="Include" />
+          <e p="Glitch.shader" t="Include" />
           <e p="Mirror.shader" t="Include" />
           <e p="Monitor.shader" t="Include" />
           <e p="New Amplify Shader.shader" t="Include" />
@@ -864,6 +874,7 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
       </e>

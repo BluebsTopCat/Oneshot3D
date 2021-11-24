@@ -14,6 +14,10 @@ public class Inputthing : MonoBehaviour
     public Computer pc;
     public GameObject textright;
     public GameObject textwrong;
+    public AudioClip fail;
+    public AudioClip succed;
+    public AudioClip start;
+    public AudioSource se;
     private bool donebefore;
     private IEnumerator Start()
     {
@@ -80,8 +84,10 @@ public class Inputthing : MonoBehaviour
         if (nums == correctpassword)
         {
             textright.SetActive(true);
+            se.clip = succed;
+            se.Play();
             GameObject.Find("ComputerInputList").SetActive(false);
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(1f);
             textright.SetActive(false);
             pc.initiatecomputerdialogue();
 
@@ -92,6 +98,8 @@ public class Inputthing : MonoBehaviour
             textwrong.SetActive(true);
             var g = GameObject.Find("ComputerInputList");
             g.SetActive(false);
+            se.clip = fail;
+            se.Play();
             yield return new WaitForSeconds(.5f);
             textwrong.SetActive(false);
             g.SetActive(true);

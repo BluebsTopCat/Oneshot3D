@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 808,332
 ---
+<<playsound EventMaster FridgeOpen>>
 <<if $gotalcohol is 1>>
 -The refrigerator is empty.+
 <<endif>>
@@ -12,6 +13,7 @@ position: 808,332
 <<set $gotalcohol to 1>>
 -Niko takes it.+
 <<endif>>
+<<playsound EventMaster FridgeClose>>
 ===
 title: Table
 tags: 
@@ -34,11 +36,22 @@ position: 717,-204
 ---
 -The sink won't turn on.+
 ===
+title: HelloAnyone
+---
+<<if $nikohello is 0>>
+Niko-OpenMouth: Helloooo?
+Niko-Neutral: ..anyone?
+<<set $nikohello to 1>>
+<<break>>
+<<endif>>
+===
 title: Television
 tags: 
 colorID: 0
 position: 179,-230
 ---
+<<playsound EventMaster Spark>>
+<<wait .2>>
 -The TV gives off a dangerous—looking <color=green>spark</color>.+
 ===
 title: TelevisionFail
@@ -47,6 +60,8 @@ colorID: 0
 position: -81,80
 ---
 -Niko readies the branch...+
+<<playsound EventMaster Spark>>
+<<wait .2>>
 -It doesn't manage to light.+
 ===
 title: TelevisionSucceed
@@ -55,6 +70,9 @@ colorID: 0
 position: 448,-237
 ---
 -Niko readies the branch...+
+<<playsound EventMaster Spark>>
+<<playsound EventMaster Enflame>>
+<<wait .2>>
 Niko-OpenMouth: Ah!
 <<give EventMaster 6>>
 <<take EventMaster 5>>
@@ -79,6 +97,7 @@ colorID: 0
 position: -19,357
 ---
 <<enableobject Chimmey>>
+<<playsound EventMaster Enflame>>
 -The branch lights the fireplace, burning up in the process+
 <<take EventMaster 6>>
 <<set $fireplacelit to 1>>
@@ -101,9 +120,11 @@ colorID: 0
 position: 0,0
 ---
 <<if $Equipped is 7>>
+<<playsound EventMaster Unlock>>
+<<wait .3>>
 -The key fits in the hole perfectly, but snaps on the way out+
 <<destroy EventMaster LockedDoor>>
-<<setvar EventMaster Opened_BasementDoor true>>
+<<setvar EventMaster Opened_BasementDoor true>> 
 <<take EventMaster 7>>
 <<enableobject DoorToBasement>>
 <<else>>

@@ -24,6 +24,7 @@ SOFTWARE.
 
 */
 
+using System;
 using UnityEngine;
 
 namespace Yarn.Unity.Example
@@ -36,6 +37,8 @@ namespace Yarn.Unity.Example
 
         public string talkToNode = "";
 
+        public string donevar;
+        public bool trigger = false;
         [Header("Optional")] public YarnProgram scriptToLoad;
 
         private void OnEnable()
@@ -44,6 +47,14 @@ namespace Yarn.Unity.Example
             {
                 var dialogueRunner = FindObjectOfType<DialogueRunner>();
                 dialogueRunner.Add(scriptToLoad);
+            }
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (trigger && FindObjectOfType<InMemoryVariableStorage>().GetValue(donevar).AsBool != true)
+            {
+                FindObjectOfType<DialogueRunner>().StartDialogue(talkToNode);
             }
         }
     }

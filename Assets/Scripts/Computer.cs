@@ -22,6 +22,7 @@ public class Computer : MonoBehaviour
     private Movement player;
     private GameObject playermesh;
     public CinemachineVirtualCamera vc;
+    public AudioSource progress;
     private void Start()
     {
         if (PlayerPrefs.GetInt("CompletedRoom1") == 1)
@@ -42,6 +43,9 @@ public class Computer : MonoBehaviour
                 Vector3.Distance(player.gameObject.transform.position, gameObject.transform.position) <
                 interactionradius && player.canmove)
             {
+                passwordscreen.se.clip = passwordscreen.start;
+                FindObjectOfType<Music>().entercutscene(2,.1f);
+                passwordscreen.se.Play();
                 vc.Priority = 100;
                 passwordscreen.gameObject.SetActive(true);
                 passwordscreen.highlight(tmpinf);
@@ -72,6 +76,7 @@ public class Computer : MonoBehaviour
                 
                 shutdown = true;
                 GetComponent<BoxCollider>().enabled = true;
+                FindObjectOfType<Music>().exitcutscene();
                 NativeWinAlert.Error("You only have one shot, " + Environment.UserName + ".","...");
                 //do other things here on dialogue completion
             }
@@ -79,7 +84,10 @@ public class Computer : MonoBehaviour
             {
                 windowtext.text = dialogue[textline];
                 if (Input.GetKeyDown(KeyCode.Space))
+                {
                     textline++;
+                    progress.Play();
+                }
             }
         }
     }
@@ -87,6 +95,7 @@ public class Computer : MonoBehaviour
     public void initiatecomputerdialogue()
     {
         inwindow = true;
+        FindObjectOfType<Music>().entercutscene(1,0f);
         onscreen.SetActive(true);
         windowtext.gameObject.SetActive(true);
         window.SetActive(true);
@@ -99,5 +108,6 @@ public class Computer : MonoBehaviour
         playermesh.SetActive(true);
         player.canmove = true;
         vc.Priority = 0; 
+        FindObjectOfType<Music>().exitcutscene();
     }
 }

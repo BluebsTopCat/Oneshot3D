@@ -30,10 +30,12 @@ public class CutScenePlayer : MonoBehaviour
  
     IEnumerator PlayCutscene()
     {
+        FindObjectOfType<Music>().entercutscene(.5f,0f);
         onvideostart.Invoke();
         toplay.Play();
         //do cutscene stuff
         yield return new WaitForSeconds((float)toplay.length);    
+        FindObjectOfType<Music>().exitcutscene();
         onvideoend.Invoke();
     }
 
@@ -50,6 +52,7 @@ public class CutScenePlayer : MonoBehaviour
     public void unfreezeplayer()
     {
         player.canmove = true;
+        PlayerPrefs.SetInt("HasBulb", 1);
         FindObjectOfType<DialogueRunner>().StartDialogue("LightbulbCutscene");
     }
 
