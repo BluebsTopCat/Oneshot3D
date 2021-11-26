@@ -5,7 +5,7 @@ using Yarn.Unity;
 using YarnSpinner;
 using System;
 using System.Runtime.InteropServices;
-public class Computer : MonoBehaviour
+public class Computer : Interactable
 {
     // Start is called before the first frame update
     public int interactionradius;
@@ -32,29 +32,25 @@ public class Computer : MonoBehaviour
     }
 
     // Update is called once per frame
+    
+    public override void Interact()
+    {
+        if (!inwindow && !shutdown)
+        {
+            passwordscreen.se.clip = passwordscreen.start;
+            FindObjectOfType<Music>().entercutscene(2,.1f);
+            passwordscreen.se.Play();
+            vc.Priority = 100;
+            passwordscreen.gameObject.SetActive(true);
+            passwordscreen.highlight(tmpinf);
+            player.PlayerAnim.gameObject.SetActive(false);
+            playermesh.SetActive(false);
+            player.canmove = false;
+        }
+    }
     private void Update()
     {
-        if (shutdown)
-            return;
-
-        if (!inwindow)
-        {
-            if (Input.GetKeyDown(KeyCode.Space) &&
-                Vector3.Distance(player.gameObject.transform.position, gameObject.transform.position) <
-                interactionradius && player.canmove)
-            {
-                passwordscreen.se.clip = passwordscreen.start;
-                FindObjectOfType<Music>().entercutscene(2,.1f);
-                passwordscreen.se.Play();
-                vc.Priority = 100;
-                passwordscreen.gameObject.SetActive(true);
-                passwordscreen.highlight(tmpinf);
-                player.PlayerAnim.gameObject.SetActive(false);
-                playermesh.SetActive(false);
-                player.canmove = false;
-            }
-        }
-        else
+        if (!shutdown && inwindow)
         {
             if (textline >= dialogue.Length)
             {

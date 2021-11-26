@@ -808,6 +808,7 @@
             <e p="DestroyItem.cs" t="Include" />
             <e p="DialogueCharacter.cs" t="Include" />
             <e p="GiveItem.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="ItemLib.cs" t="Include" />
           </e>
@@ -830,7 +831,6 @@
             <e p="NewCommandLib.cs" t="Include" />
             <e p="NPC.cs" t="Include" />
             <e p="Playsound.cs" t="Include" />
-            <e p="SetVar.cs" t="Include" />
             <e p="TakeItem.cs" t="Include" />
             <e p="TriggerNPC.cs" t="Include" />
           </e>

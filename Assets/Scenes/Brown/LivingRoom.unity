@@ -12491,6 +12491,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 630596180}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!64 &469269013
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21444,6 +21456,9 @@ MonoBehaviour:
     variable: Opened_BasementDoor
     turnon: 0
   - item: {fileID: 826547508}
+    variable: Opened_BasementDoor
+    turnon: 1
+  - item: {fileID: 343387429}
     variable: Opened_BasementDoor
     turnon: 1
 --- !u!1 &2009882166

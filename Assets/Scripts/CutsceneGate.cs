@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 using YarnSpinner;
 
-public class CutsceneGate : MonoBehaviour
+public class CutsceneGate : Interactable
 {
     public string varnamechecking = "GotBulb";
 
@@ -26,11 +26,9 @@ public class CutsceneGate : MonoBehaviour
         player = FindObjectOfType<Movement>();
     }
 
-    private void Update()
-    {
-        //okay because yarnspinner is a pissbaby sometimes, I'm faking the way interaction works in it
-        if(Vector3.Distance(player.gameObject.transform.position, this.transform.position) < player.interactionRadius && player.canmove && Input.GetKeyDown(KeyCode.Space))
-            Cutscenecheck();
+    public override void Interact()
+    { 
+        Cutscenecheck();
     }
 
     void Cutscenecheck()

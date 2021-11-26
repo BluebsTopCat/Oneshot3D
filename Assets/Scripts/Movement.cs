@@ -66,8 +66,8 @@ namespace YarnSpinner
         private static readonly int Speed = Animator.StringToHash("Speed");
 
         private float coyotetime;
-
-        private bool deleteonquit = false;
+        
+        
         private float turnsmoothtime = 0.1f;
         private float turnsmoothvelocity;
 
@@ -87,14 +87,7 @@ namespace YarnSpinner
         {
 
 
-
-            //DELETE THIS IN PROD 
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                deleteonquit = true;
-                Debug.Log("Purged the Variables for reset");
-            }
-
+            PlayerAnim.SetBool("Bulb?",  PlayerPrefs.GetInt("HasBulb") == 1);
             if (FindObjectOfType<DialogueRunner>().IsDialogueRunning || canmove == false)
             {
                 footsteps.mute = true;
@@ -106,7 +99,6 @@ namespace YarnSpinner
                 return;
             }
             
-            PlayerAnim.SetBool("Bulb?",  PlayerPrefs.GetInt("HasBulb") == 1);
             cfl.m_XAxis.m_MaxSpeed = 300.0f;
             cfl.m_YAxis.m_MaxSpeed = 2.0f;
             if (Input.GetMouseButtonDown(0))
@@ -183,9 +175,11 @@ namespace YarnSpinner
                 currentequippeddisp.gameObject.SetActive(false);
             else
                 currentequippeddisp.gameObject.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.Space)) CheckForNearbyNPC();
-            if (ininventory)
-                mouselocked = false;
+            
+            if (Input.GetKeyDown(KeyCode.Space)) FindInteractions();
+            
+            if (ininventory) mouselocked = false;
+            
             if (mouselocked)
             {
                 Cursor.lockState = CursorLockMode.Locked;
@@ -221,18 +215,26 @@ namespace YarnSpinner
          * Filter them to those that have a Yarn start node and are in range; 
          * then start a conversation with the first one
          */
-        public void CheckForNearbyNPC()
+        public void FindInteractions()
         {
-            var allParticipants = new List<NPC>(FindObjectsOfType<NPC>());
-            var target = allParticipants.Find(delegate(NPC p)
+            var allParticipants = new List<Interactable>(FindObjectsOfType<Interactable>());
+            var target = allParticipants.Find(delegate(Interactable p)
             {
-                return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
+                return  // has a conversation node?
                        (p.transform.position - (transform.position+ transform.forward*1)) // is in range?
                        .magnitude <= interactionRadius;
             });
             if (target != null)
-                // Kick off the dialogue at this node.    
-                FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+            {
+                target.Interact();
+                
+                foreach (var item in buttons) Destroy(item);
+                mouselocked = true;
+                itemimages.SetActive(false);
+                itemimages.gameObject.transform.localPosition = new Vector3(75, 0, 0);
+            }
+
+
         }
 
         public void equipiten(int id)
@@ -250,14 +252,12 @@ namespace YarnSpinner
             PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex);
             var position = this.transform.position;
             PlayerPrefs.SetFloat("PlayerPosX", position.x);
-            PlayerPrefs.SetFloat("PlayerPosY", position.y);
+            PlayerPrefs.SetFloat("PlayerPosY", position.y);    
             PlayerPrefs.SetFloat("PlayerPosZ", position.z);
             var eulerAngles = this.transform.eulerAngles;
             PlayerPrefs.SetFloat("PlayerRotX", eulerAngles.x);
             PlayerPrefs.SetFloat("PlayerRotY", eulerAngles.y);
             PlayerPrefs.SetFloat("PlayerRotZ", eulerAngles.z);
-            if(deleteonquit)
-                PlayerPrefs.DeleteAll();
         }
 
         public void loadinventory()

@@ -9,9 +9,9 @@ position: 808,332
 <<endif>>
 <<if $gotalcohol is 0>>
 -Inside the refrigerator is a <color=red>bottle of alcohol</color>.+
-<<give EventMaster 3>>
+<<Give 3>>
 <<set $gotalcohol to 1>>
--Niko takes it.+
+-Niko Takes it.+
 <<endif>>
 <<playsound EventMaster FridgeClose>>
 ===
@@ -38,12 +38,9 @@ position: 717,-204
 ===
 title: HelloAnyone
 ---
-<<if $nikohello is 0>>
 Niko-OpenMouth: Helloooo?
 Niko-Neutral: ..anyone?
 <<set $nikohello to 1>>
-<<break>>
-<<endif>>
 ===
 title: Television
 tags: 
@@ -52,7 +49,7 @@ position: 179,-230
 ---
 <<playsound EventMaster Spark>>
 <<wait .2>>
--The TV gives off a dangerous—looking <color=green>spark</color>.+
+-The TV Gives off a dangerous—looking <color=green>spark</color>.+
 ===
 title: TelevisionFail
 tags: 
@@ -74,8 +71,8 @@ position: 448,-237
 <<playsound EventMaster Enflame>>
 <<wait .2>>
 Niko-OpenMouth: Ah!
-<<give EventMaster 6>>
-<<take EventMaster 5>>
+<<Give 6>>
+<<Take 5>>
 ===
 title: Fireplace
 tags: 
@@ -99,7 +96,7 @@ position: -19,357
 <<enableobject Chimmey>>
 <<playsound EventMaster Enflame>>
 -The branch lights the fireplace, burning up in the process+
-<<take EventMaster 6>>
+<<Take 6>>
 <<set $fireplacelit to 1>>
 -The <color=yellow>flames</color> are dim but comforting.+
 ===
@@ -111,8 +108,8 @@ position: 0,0
 -Something on the ground glimmers in the firelight.+
 -It appears to be a small metallic object,wedged into a crack in the floor.+
 -Niko digs it out.+
-<<destroy EventMaster KeyFloor>>
-<<give EventMaster 7>>
+<<Destroy KeyFloor>>
+<<Give 7>>
 ===
 title: BasementDoor
 tags:
@@ -123,9 +120,9 @@ position: 0,0
 <<playsound EventMaster Unlock>>
 <<wait .3>>
 -The key fits in the hole perfectly, but snaps on the way out+
-<<destroy EventMaster LockedDoor>>
-<<setvar EventMaster Opened_BasementDoor true>> 
-<<take EventMaster 7>>
+<<Destroy LockedDoor>>
+<<SetVar Opened_BasementDoor true>> 
+<<Take 7>>
 <<enableobject DoorToBasement>>
 <<else>>
 -The door is locked+
@@ -164,7 +161,7 @@ position: 1104,426
 <<playsound EventMaster Branch>>
 <<wait 2>>
 -A branch snaps off.+
-<<give EventMaster 2>>
+<<Give 2>>
 <<set $gotbranch to 1>>
 <<endif>>
 
@@ -212,7 +209,7 @@ colorID: 0
 position: 136,430
 ---
 -Niko hears the sound of a door unlocking.+
-<<Destroy EventMaster DoorBlocker>>
+<<Destroy DoorBlocker>>
 ===
 
 title: DoorL
@@ -230,9 +227,9 @@ position: 868,329
 ---
 -There's a <color=grey>TV Remote</color> here.+
 -Niko picks it up.+
-<<give EventMaster 1>>
-<<setvar EventMaster gotremote true>>
-<<destroy EventMaster Remote>>
+<<Give 1>>
+<<SetVar gotremote true>>
+<<Destroy Remote>>
 ===
 
 title: LightbulbCutscene
@@ -241,9 +238,9 @@ colorID: 0
 position: 868,329
 ---
 <<wait 1>>
-<<give EventMaster 0>>
-<<setvar EventMaster GotBulb true>>
-<<destroy EventMaster LightBulb>>
+<<Give 0>>
+<<SetVar GotBulb true>>
+<<Destroy LightBulb>>
 <<enableobject Walls >>
-<<destroy EventMaster Movie>>
+<<Destroy Movie>>
 ===

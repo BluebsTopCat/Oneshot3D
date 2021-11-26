@@ -49,6 +49,7 @@ public class Music : MonoBehaviour
                         newaudio.clip = asclip.track;
                         newaudio.volume = asclip.volume;
                         newaudio.outputAudioMixerGroup = amg;
+                        newaudio.loop = true;
                         asclip.audsor = newaudio;
                         newaudio.Play();
                     }

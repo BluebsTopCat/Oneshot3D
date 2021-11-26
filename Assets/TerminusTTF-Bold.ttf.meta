@@ -4,7 +4,7 @@ TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: 1
+  forceTextureCase: 0
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
@@ -15,7 +15,7 @@ TrueTypeFontImporter:
   fontRenderingMode: 2
   ascentCalculationMode: 2
   useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 0
+  shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

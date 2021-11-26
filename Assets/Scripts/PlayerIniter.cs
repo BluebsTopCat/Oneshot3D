@@ -16,7 +16,7 @@ public class PlayerIniter : MonoBehaviour
             foreach (Music m in FindObjectsOfType<Music>())
             {
                 if(i != 0)
-                    Destroy(m);
+                    Destroy(m.gameObject);
                 i++;
             }
         }

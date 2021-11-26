@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -24,14 +26,24 @@ public class Inputthing : MonoBehaviour
 
         vars = FindObjectOfType<InMemoryVariableStorage>();
         yield return new WaitForSeconds(.05f);
-        if (PlayerPrefs.GetString("Passwordoproom", "") == "")
+        if (PlayerPrefs.GetString("Passwordoproom", "").Length < 4) 
         {
-            int red = Random.Range(0, 10);
-            int green = Random.Range(0, 10);
-            int blue = Random.Range(0, 10);
-            int yellow = Random.Range(0, 10);
+            List<int> numbers = new List<int>();
+            for (int i = 0; i < 4; i++)
+            {
+                int num = Random.Range(0, 10);
+                while (numbers.Contains(num)) 
+                    num = Random.Range(0, 10);
+                numbers.Add(num);
+                Debug.Log(num);
+            }
+
+            int red = numbers[0];
+            int green = numbers[1];
+            int blue = numbers[2];
+            int yellow = numbers[3];
             correctpassword = red + green.ToString() + blue + yellow;
-           vars.SetValue("$Red", red.ToString());
+            vars.SetValue("$Red", red.ToString());
             vars.SetValue("$Green", green.ToString());
             vars.SetValue("$Blue", blue.ToString());
             vars.SetValue("$Yellow", yellow.ToString());        
@@ -52,10 +64,6 @@ public class Inputthing : MonoBehaviour
             vars.SetValue("$Blue", int.Parse(blue).ToString());
             vars.SetValue("$Yellow", int.Parse(yellow).ToString());
         }
-        
-        
-
-
         gameObject.SetActive(false);
     }
 

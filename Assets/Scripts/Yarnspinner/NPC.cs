@@ -31,7 +31,7 @@ namespace Yarn.Unity.Example
 {
     /// attached to the non-player characters, and stores the name of the Yarn
     /// node that should be run when you talk to them.
-    public class NPC : MonoBehaviour
+    public class NPC : Interactable
     {
         public string characterName = "";
 
@@ -57,5 +57,12 @@ namespace Yarn.Unity.Example
                 FindObjectOfType<DialogueRunner>().StartDialogue(talkToNode);
             }
         }
+
+        public override void Interact()
+        {
+            if(!trigger)
+              FindObjectOfType<DialogueRunner>().StartDialogue(talkToNode);
+        }
+        
     }
 }
